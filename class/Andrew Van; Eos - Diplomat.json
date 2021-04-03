@@ -1,0 +1,1786 @@
+{
+	"$schema": "../schema.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "EOS:Diplo",
+				"abbreviation": "EOS",
+				"full": "Eos (Andrew's Homebrew) - Diplomat",
+				"authors": [
+					"Andrew Van"
+				],
+				"convertedBy": [
+					"Andrew Van"
+				],
+				"version": "0.1",
+				"color": "853d19",
+				"url": "https://github.com/vanandrew/homebrew",
+				"targetSchema": "1.5.0"
+			}
+		],
+		"optionalFeatureTypes": {
+			"EOS:ST": "Skill Talents",
+			"EOS:I": "Improvisations"
+		},
+		"dateAdded": 1617421915,
+		"dateLastModified": 1617421915
+	},
+	"class": [
+		{
+			"name": "Diplomat",
+			"source": "EOS:Diplo",
+			"classFeatures": [
+				"Diplomatic Inspiration|Diplomat|EOS:Diplo|1",
+				"Skill Talents|Diplomat|EOS:Diplo|1",
+				"Unarmored Defense|Diplomat|EOS:Diplo|1",
+				"Guiding Hand|Diplomat|EOS:Diplo|2",
+				"Improvisations|Diplomat|EOS:Diplo|2",
+				{
+					"classFeature": "Diplomat Archetype|Diplomat|EOS:Diplo|3",
+					"gainSubclassFeature": true
+				},
+				"Expertise|Diplomat|EOS:Diplo|3",
+				"Ability Score Improvement|Diplomat|EOS:Diplo|4",
+				"Diplomatic Inspiration (Improved)|Diplomat|EOS:Diplo|5",
+				"Font of Inspiration|Diplomat|EOS:Diplo|5",
+				{
+					"classFeature": "Diplomat Archetype Feature|Diplomat|EOS:Diplo|6",
+					"gainSubclassFeature": true
+				},
+				"Evasion|Diplomat|EOS:Diplo|7",
+				"Ability Score Improvement|Diplomat|EOS:Diplo|8",
+				{
+					"classFeature": "Diplomat Archetype Feature|Diplomat|EOS:Diplo|9",
+					"gainSubclassFeature": true
+				},
+				"Polygot|Diplomat|EOS:Diplo|9",
+				"Ability Score Improvement|Diplomat|EOS:Diplo|10",
+				"Diplomatic Inspiration (Improved)|Diplomat|EOS:Diplo|10",
+				"Expertise (Improved)|Diplomat|EOS:Diplo|11",
+				"Turning the Tables|Diplomat|EOS:Diplo|11",
+				"Ability Score Improvement|Diplomat|EOS:Diplo|12",
+				"Resilience|Diplomat|EOS:Diplo|13",
+				"Traveller's Lore|Diplomat|EOS:Diplo|13",
+				{
+					"classFeature": "Diplomat Archetype Feature|Diplomat|EOS:Diplo|14",
+					"gainSubclassFeature": true
+				},
+				"Diplomatic Inspiration (Improved)|Diplomat|EOS:Diplo|15",
+				"Ability Score Improvement|Diplomat|EOS:Diplo|16",
+				{
+					"classFeature": "Diplomat Archetype Feature|Diplomat|EOS:Diplo|17",
+					"gainSubclassFeature": true
+				},
+				"Independent Spirit|Diplomat|EOS:Diplo|18",
+				"Ability Score Improvement|Diplomat|EOS:Diplo|19",
+				"Endless Ingenuity|Diplomat|EOS:Diplo|20"
+			],
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Skill Talents|optionalfeatures|source=null|feature type=EOS:ST}",
+						"Improvisation Points",
+						"{@filter Improvisations Known|optionalfeatures|source=null|feature type=EOS:I}"
+					],
+					"rows": [
+						[
+							1,
+							0,
+							0
+						],
+						[
+							1,
+							2,
+							3
+						],
+						[
+							1,
+							3,
+							3
+						],
+						[
+							1,
+							4,
+							3
+						],
+						[
+							2,
+							5,
+							3
+						],
+						[
+							2,
+							6,
+							3
+						],
+						[
+							2,
+							7,
+							5
+						],
+						[
+							2,
+							8,
+							5
+						],
+						[
+							3,
+							9,
+							5
+						],
+						[
+							3,
+							10,
+							7
+						],
+						[
+							3,
+							11,
+							7
+						],
+						[
+							3,
+							12,
+							7
+						],
+						[
+							4,
+							13,
+							7
+						],
+						[
+							4,
+							14,
+							9
+						],
+						[
+							4,
+							15,
+							9
+						],
+						[
+							4,
+							16,
+							9
+						],
+						[
+							5,
+							17,
+							9
+						],
+						[
+							5,
+							18,
+							9
+						],
+						[
+							5,
+							19,
+							9
+						],
+						[
+							5,
+							20,
+							9
+						]
+					]
+				}
+			],
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"cha",
+				"wis"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium"
+				],
+				"weapons": [
+					"simple",
+					"{@filter sidearms|items|source=EOS|type=Firearm;Sidearm Weapon=sand}",
+					"{@item hand crossbow|PHB|hand crossbows}",
+					"{@item longsword|PHB|longswords}",
+					"{@item rapier|PHB|rapiers}",
+					"{@item shortsword|PHB|shortswords}"
+				],
+				"tools": [
+					"{@item Gaming set|PHB|gaming sets}",
+					"{@item Musical Instrument|PHB|musical instruments}"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"athletics",
+								"acrobatics",
+								"sleight of hand",
+								"stealth",
+								"arcana",
+								"history",
+								"investigation",
+								"nature",
+								"religion",
+								"animal handling",
+								"insight",
+								"medicine",
+								"perception",
+								"survival",
+								"deception",
+								"intimidation",
+								"performance",
+								"persuasion"
+							],
+							"count": 3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"default": [
+					"(a) a {@item Model 14 Revolver|EOS} or (b) any {@filter sidearms|items|source=EOS|type=Firearm;Sidearm Weapon=sand}",
+					"(a) a {@item diplomat's pack|PHB} or (b) an {@item entertainer's pack|PHB}",
+					"(a) any {@item gaming set|PHB} or (b) any {@item musical instrument|PHB}",
+					"{@item leather armor|PHB} and a {@item dagger|PHB}"
+				],
+				"additionalFromBackground": true,
+				"goldAlternative": "{@dice 6d4 × 10|6d4 × 10|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"Model 14 Revolver|EOS"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSidearm",
+								"quantity": 1
+							}
+						]
+					},
+					{
+						"a": [
+							"diplomat's pack|PHB"
+						],
+						"b": [
+							"entertainer's pack|PHB"
+						]
+					},
+					{
+						"a": [
+							"gaming set|PHB"
+						],
+						"b": [
+							"musical instrument|PHB"
+						]
+					},
+					{
+						"_": [
+							"leather armor|PHB",
+							"dagger|PHB"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"chr": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light"
+					],
+					"tools": [
+						"{@item Gaming Set|PHB|gaming sets} or {@item Musical Instrument|PHB|musical instruments}"
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"athletics",
+									"acrobatics",
+									"sleight of hand",
+									"stealth",
+									"arcana",
+									"history",
+									"investigation",
+									"nature",
+									"religion",
+									"animal handling",
+									"insight",
+									"medicine",
+									"perception",
+									"survival",
+									"deception",
+									"intimidation",
+									"performance",
+									"persuasion"
+								],
+								"count": 1
+							}
+						}
+					]
+				}
+			},
+			"fluff": [
+				{
+					"source": "EOS:Diplo",
+					"name": "Diplomat",
+					"type": "section",
+					"entries": [
+						"Crystal champagne flute glittering under the light of a chandelier high above, an elf in noble's garb chatters and smiles her way into the presence of the most powerful noble in the land, slowly but surely spreading the web of her influence across the political sphere of yet another kingdom.",
+						"Scraping dirt from his baggy trousers and catching his breath, a human clambers to his feet, before leaping to the side as a rolling boulder smashes its way by. Laughing with glee at the thrill of danger, he leaps back onto the path, keeping an eye for the silver gleem of a trip wire in this long abandoned temple.",
+						"Arms spread wide, a halfling stands between two factions on the verge of war. Her powerful words echo across the violent armies arried against each other, slowly taking the tension from the air as they set down their weapons and come to the peace table prepared for them.",
+						"Masters of words or exploration, diplomats are travellers who seek to see the world without any intention to kill or conquer it. They sacrifice combat prowess for a wealth of skills outside the battlefield.",
+						{
+							"name": "Wayward Traveller",
+							"entries": [
+								"The diplomat is the free spirit and the wanderer, seeking out the farthest corners of the world on a voyage of discovery or for the sheer pleasure of two feet on the open road. They rarely settle, rarely stay still, often seeking out occupation that allows them to travel far afield and see the many nations of the world.",
+								"Frequently obsessed with certain cultures and places, diplomats will tend to amass trivia about their favorite destinations, past or hoped for, and share this trivia freely with those who care for it and those who don't."
+							]
+						},
+						{
+							"name": "Diplomat Inspiration",
+							"type": "inset",
+							"entries": [
+								"The Diplomat class is designed to provide a non-magical alternative to the Bard, for low-magic or nonmagical Steampunk settings. The two classes therefore share several features. In terms of flavour, however, the two are distinct and not interchangeable classes."
+							]
+						},
+						{
+							"name": "The Pen is Mightier...",
+							"entries": [
+								"Diplomats have few specifically combat-orientated skills, their main focus being in social play and the exploration of the world. Where their combat skills lie is largely in staying out of the fray to support their allies, directing, guiding and inspiring those who are more built for the thick of battle.",
+								"Diplomats are often thinkers and philosophers, preferring words and persuasion to swords and shields on a philosophical or ethical basis. They are frequently evangelical about this pseudo-pacifist approach, often infuriating any soldiers or military personnel they may travel with as they denounced violence as unnecessary and ineffective in resolving disputes.",
+								"An easy way to add a bit of flavour and flare to a diplomat is to add just a jot of pretention. Whether this is a particularly top-down brand of champagne socialism, a repugnance for any book published in the last hundred years, or an instance to wear only the latest in tailored fashion, many diplomats have adapted the tendencies of the socialites they frequently find themselves amongst, giving a certain air of wealth and mock refinement."
+							]
+						},
+						{
+							"name": "Creating a Diplomat",
+							"entries": [
+								"When creating your diplomat, think about the kind of social background you came from, and why you might choose to specialize in words and wit over swords and steel. Perhaps you were born in a socialite Ivory Tower, and this is simply the way of life you were raised to; or perhaps you were born to the slums of a vast city, and fought with tooth and nail the right to a university education and the hopes of a better life. Do you see your guile as a social game, an amusement at other people's expense, or do you see it as a serious tool to be used for your own advancement?",
+								"Most diplomats will have undergone some manner of education, often at a university although more rarely under as an apprentice under a great master. Who was your master or your tutors, and what was your relationship with them like? What made you abandon an academic career for a life on the move, seeing the world at large?",
+								"Consider what it is in the world your diplomat is seeking. If you seek sights and wonders, you may be a more rugged diplomat, perhaps taking the Prospector archetype at later levels. If you instead seek personal wealth and influence, you are likely to disdain getting your hands dirty, feeling more at home in a ballroom than a dungeon, take the Envoy.",
+								{
+									"name": "Quick Build",
+									"entries": [
+										"You can make a diplomat quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Constitution. Second, choose the {@background courtier|SCAG} background."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"subclassTitle": "Diplomat Archetype"
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Diplomatic Inspiration",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 1,
+			"entries": [
+				"You can inspire others through stirring words. As a bonus action on your turn, choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Diplomatic Inspiration die, a {@dice d6}",
+				"Once within the next 10 minutes, the creature can roll the die and add the number to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Diplomatic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Diplomatic Inspiration die is rolled, it is lost. A creature may only have one Bardic Inspiration die or Diplomatic Inspiration die at a time, neither more than one nor both.",
+				"You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest.",
+				"Your Diplomatic Inspiration die increases when you reach certain levels in this class. The die becomes a {@dice d8} at 5th level, a {@dice d10} at 10th level, and a {@dice d12} at 15th level."
+			]
+		},
+		{
+			"name": "Skill Talents",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 1,
+			"entries": [
+				"You learn to specialize in certain skills. You begin with one skill talent, which you choose by picking any one skill.",
+				"If you do not have proficiency with that skill, you can add half your proficiency bonus (rounded down) to any ability check you make with that skill.",
+				"If you do have proficiency with that skill, you instead gain a Skill Talent feature related to that skill. The Skill Talents for each skill are detailed at the end of the class description.",
+				"You can choose additional skill talents at higher levels, as shown on the Skill Talents column of the Diplomat table. You cannot take a skill talent twice in the same skill.",
+				"You gain a skill talent option when you choose a skill with which you are proficient for your {@filter Skill Talents|optionalfeatures|source=null|feature type=EOS:ST} feature.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Acrobatics|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Animal Handling|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Arcana|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Athletics|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Deception|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "History|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Insight|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Intimidation|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Medicine|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Nature|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Perception|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Performance|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Persuasion|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Piloting|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Religion|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Sleight of Hand|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Stealth|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Survival|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Technology|EOS:Diplo"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Unarmored Defense",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 1,
+			"entries": [
+				"Beginning at 1st Level, while you are wearing no armor and not wielding a Shield, your AC equals 10 + your Dexterity modifier + your Charisma modifier."
+			]
+		},
+		{
+			"name": "Guiding Hand",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 2,
+			"entries": [
+				"Starting at 2nd level, you become adept at assisting your friends in the midst of battle. You can take the {@action Help|PHB} action as a bonus action.",
+				"In addition, the range of your {@action Help|PHB} action increases to 30 feet. Both the creature you are helping and any object or creature it is interacting with or attacking must be within 30 feet of you, and any creature involved must be able to hear you for you to use this feature."
+			]
+		},
+		{
+			"name": "Improvisations",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 2,
+			"entries": [
+				"Also at 2nd level, you can harness a range of impromptu skills to help sway situations in your favour. Your access to these improvisations is represented by a number of Improvisation Points. Your diplomat level determines the number of points you have, as shown in the Improvisation Points column of the Diplomat table.",
+				"You can spend these points to fuel improvisations and Diplomat features. You start knowing your choice of three improvisations, and you learn new improvisations as you gain levels in this class, as shown in the {@filter Improvisations Known|optionalfeatures|source=null|feature type=EOS:I} column of the Diplomat table. Your Improvisation options are detailed at the end of the class.",
+				"When you spend an improvisation point, it is unavailable until you finish a short or long rest, at the end of which you can prepare to use more improvisations. You must spend at least 30 minutes of the rest scheming and putting together contraptions to regain your Improvisation Points.",
+				"Some of your improvisation features require your target to make a saving throw to resist the feature's effects. The saving throw DC is calculated as follows:",
+				{
+					"type": "abilityDc",
+					"name": "Improvisations",
+					"attributes": [
+						"cha"
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Baton Pass|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Blackmail|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Body Shield|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Disarming Smile|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Drop the Roof|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Duck|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Feather Touch|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Feint|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Judge the Room|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Kick Up Dust|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Multitasker|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Puff of Smoke|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Quickdraw|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Reach for It|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Riposte|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Slip Through|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Soft Landing|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Soft Spot|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Trip|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "When All You Have is a Hammer|EOS:Diplo"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Wink|EOS:Diplo"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Diplomat Archetype",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you begin to learn unique skills associated with your preferred kinds of travel and exploration. Choose your choice of diplomat archetype to model yourself after: either the Envoy or the Prospector, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 6th, 9th, 14th, and 17th level."
+			]
+		},
+		{
+			"name": "Expertise",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 3,
+			"entries": [
+				"At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
+				"You could also choose a skill which you gained half proficiency in from your Skill Talents feature. If you do, you gain proficiency in that skill, and no longer gain the half proficiency bonus.",
+				"At 11th level, you can choose another two skill proficiencies to gain this benefit."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 10th, 12th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1 each. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Diplomatic Inspiration (Improved)",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 5,
+			"entries": [
+				"Your Diplomatic Inspiration die increases to a {@dice d8} at 5th level."
+			]
+		},
+		{
+			"name": "Font of Inspiration",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 5,
+			"entries": [
+				"Beginning when you reach 5th level, you regain all of your expended uses of Diplomatic Inspiration when you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Diplomat Archetype Feature",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 6,
+			"entries": [
+				"At 6th level, choose a Diplomat Archetype Feature."
+			]
+		},
+		{
+			"name": "Evasion",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 7,
+			"entries": [
+				"At 7th level, you can nimbly dodge out of the way of certain effects, such as an exploding trap or a fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 8,
+			"entries": [
+				"At 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1 each. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Diplomat Archetype Feature",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 9,
+			"entries": [
+				"At 9th level, choose a Diplomat Archetype Feature."
+			]
+		},
+		{
+			"name": "Polygot",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 9,
+			"entries": [
+				"Starting at 9th level, you have mastered myriad languages in your travels. You learn to speak, read and write a number of additional languages equal to your Charisma modifier (a minimum of one).",
+				"In addition, if you encounter a creature that speaks a language you do not, if you spend at least 15 minutes in conversation with that creature, you can learn to speak their language.",
+				"If you spend at least 30 minutes studying a text in a language you do not understand, you can learn to read and write that language."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 10,
+			"entries": [
+				"At 10th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1 each. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Diplomatic Inspiration (Improved)",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 10,
+			"entries": [
+				"Your Diplomatic Inspiration die increases to a {@dice d10} at 10th level."
+			]
+		},
+		{
+			"name": "Expertise (Improved)",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 11,
+			"entries": [
+				"At 11th level, choose another two skill proficiencies."
+			]
+		},
+		{
+			"name": "Turning the Tables",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 11,
+			"entries": [
+				"At 11th level, you learn to take advantage of the ebb and flow of any situation. You can add your Charisma modifier to your initiative rolls.",
+				"As a bonus action, you can expend 3 Improvisation Points to make an initiative check. Until the end of initiative order, you can choose at the top of each round whether to take your turn at your original initiative roll or at your second initiative roll.",
+				"In addition, when you make a Charisma ability check to alter a creature's attitude towards you (such as to diffuse tension with a hostile creature to make it neutral or friendly), you can expend 1 Improvisation Point to gain advantage on that ability check."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 12,
+			"entries": [
+				"At 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1 each. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Resilience",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 13,
+			"entries": [
+				"At 13th level, choose two saving throws you are not proficient in. You can add half your proficiency bonus (rounded down) to those saving throws."
+			]
+		},
+		{
+			"name": "Traveller's Lore",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 13,
+			"entries": [
+				"Starting at 13th level, your knowledge of the places and peoples of the world is unrivaled. You have advantage on any Intelligence check to recall information about places, people groups, nations, and folklore.",
+				"In addition, you can use your Charisma modifier instead of your Intelligence modifier for History checks."
+			]
+		},
+		{
+			"name": "Diplomat Archetype Feature",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 14,
+			"entries": [
+				"At 14th level, choose a Diplomat Archetype Feature."
+			]
+		},
+		{
+			"name": "Diplomatic Inspiration (Improved)",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 15,
+			"entries": [
+				"Your Diplomatic Inspiration die increases to a {@dice d12} at 15th level."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 16,
+			"entries": [
+				"At 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1 each. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Diplomat Archetype Feature",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 17,
+			"entries": [
+				"At 17th level, choose a Diplomat Archetype Feature."
+			]
+		},
+		{
+			"name": "Independent Spirit",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 18,
+			"entries": [
+				"Beginning at 18th level, you can use the {@action Help|PHB} action to help yourself. The benefits of your Guiding Hand feature apply to this {@action Help|PHB} action as well (you can perform the action as a bonus action, and can {@action Help|PHB} yourself to attack a creature within 30 feet of you)."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 19,
+			"entries": [
+				"At 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1 each. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Endless Ingenuity",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"level": 20,
+			"entries": [
+				"At 20th level, if you have no remaining Diplomatic Inspiration dice remaining when you roll initiative, you can choose to regain 1 die. Alternatively, if you have no Improvisation Points remaining when you roll initiative, you can choose to regain 1 point. You can only gain one of these benefits."
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Envoy",
+			"shortName": "Envoy",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"subclassFeatures": [
+				"Envoy|Diplomat|EOS:Diplo|Envoy|EOS:Diplo|3",
+				"Poker Face|Diplomat|EOS:Diplo|Envoy|EOS:Diplo|6",
+				"Social Imposter|Diplomat|EOS:Diplo|Envoy|EOS:Diplo|9",
+				"Charming Touch|Diplomat|EOS:Diplo|Envoy|EOS:Diplo|14",
+				"Genteel Presence|Diplomat|EOS:Diplo|Envoy|EOS:Diplo|17"
+			]
+		},
+		{
+			"name": "Prospector",
+			"shortName": "Prospector",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"subclassFeatures": [
+				"Prospector|Diplomat|EOS:Diplo|Prospector|EOS:Diplo|3",
+				"Scramble|Diplomat|EOS:Diplo|Prospector|EOS:Diplo|6",
+				"Far-Traveller|Diplomat|EOS:Diplo|Prospector|EOS:Diplo|9",
+				"Tracker's Mark|Diplomat|EOS:Diplo|Prospector|EOS:Diplo|14",
+				"Wilderness Instinct|Diplomat|EOS:Diplo|Prospector|EOS:Diplo|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Envoy",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"subclassShortName": "Envoy",
+			"subclassSource": "EOS:Diplo",
+			"level": 3,
+			"entries": [
+				"A master of political intrigue, the envoy devotes their training to the game of high society. Armed with an equal mix of guile and sympathy, an envoy knows every air and grace to walk into the highest courts across the nations of the world, earning an invite at the door. Diplomats who follow this archetype are the ambassadors, courtiers, and political climbers of the world, learning the ins and outs of the social game to turn society to their own advantage.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Diplomat|EOS:Diplo|Envoy|EOS:Diplo|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Diplomatic Immunity|Diplomat|EOS:Diplo|Envoy|EOS:Diplo|3"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"subclassShortName": "Envoy",
+			"subclassSource": "EOS:Diplo",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this archetype, you gain proficiency with the Deception and Persuasion skills, if you do not already have them. In addition, you gain proficiency with a poisoner's kit."
+			]
+		},
+		{
+			"name": "Diplomatic Immunity",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"subclassShortName": "Envoy",
+			"subclassSource": "EOS:Diplo",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting when you choose this archetype at 3rd level, your social standing makes it difficult for intelligent creatures to harm you.",
+				"Any creature with an Intelligence of 8 or higher that attempts to target you with an attack or a harmful spell must make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier). On a failed save, the creature must choose a new target or lose the attack or spell.",
+				"If you attack, cast a spell, or take damage, this effect is suppressed until the start of your next turn."
+			]
+		},
+		{
+			"name": "Poker Face",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"subclassShortName": "Envoy",
+			"subclassSource": "EOS:Diplo",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you have become a master at hiding your emotions behind an inscrutable expression. Wisdom (Insight) checks to determine your intentions or sincerity have disadvantage, and you have advantage on saving throws against any effect that would sense your emotions or read your thoughts.",
+				"If an effect would sense your emotions or read your thoughts without giving you a saving throw, you are instead immune to that effect."
+			]
+		},
+		{
+			"name": "Social Imposter",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"subclassShortName": "Envoy",
+			"subclassSource": "EOS:Diplo",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"At 9th level, you can accurately imitate and blend into any social group. If you spend at least 5 minutes studying a given social group, you learn to imitate their speech and manners, allowing you to blend in with the group.",
+				"While you are imitating the group, members of that group treat you as part of the group, and will offer you aid and information they would offer to only an in member of that group.",
+				"A creature that succeeds on an Intelligence (Investigation) check can detect faults in your imitations (DC equal to 8 + your proficiency bonus + your Charisma modifier). A creature which sees through your imitation can tell that it is faked, and may become hostile."
+			]
+		},
+		{
+			"name": "Charming Touch",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"subclassShortName": "Envoy",
+			"subclassSource": "EOS:Diplo",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you can use your action to touch a creature to charm it. The creature is charmed for a number of hours equal to your Charisma modifier (a minimum of 1 hour). This charm ends if you or any of your allies damages that creature, if it sees you or any of your allies deal to damage to one of its allies, or if you charm another creature with this feature.",
+				"While a creature is charmed in this way, you can use your action to command the creature. Choose one creature charmed in this way that is within 30 feet of you and can understand a language you can speak. It must make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier). On a failed save, you determine what that creature does during its next turn, including any actions, bonus actions, or movement it might take, and it cannot take reactions until the start of your next turn. On a success, your charm effect immediately ends on that target."
+			]
+		},
+		{
+			"name": "Genteel Presence",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"subclassShortName": "Envoy",
+			"subclassSource": "EOS:Diplo",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, your sheer charisma helps to diffuse tensions and smooth over social difficulty. When a creature meets you in person or first sees your face, their attitude moves one step towards friendly (a hostile creature becomes neutral, a neutral creature becomes friendly).",
+				"A friendly creature subjected to this effect must succeed on a Charisma saving throw against your Improvisation DC or be charmed by you for 10 minutes or until it can no longer see you. A creature charmed in this way does not know you have charmed it. Once a creature has been subjected to this effect, it is immune for the next 24 hours."
+			]
+		},
+		{
+			"name": "Prospector",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"subclassShortName": "Prospector",
+			"subclassSource": "EOS:Diplo",
+			"level": 3,
+			"entries": [
+				"Travellers of the great outdoors, the prospector devotes their training to exploration and travel. Mixing grit born from the untamed frontiers with wonder born from seeing the few remaining unspoilt wonders of the natural world, a prospector strives through toil and trouble to tred every mile of the earth, to see everything there is to see and more that no one else has ever seen. Diplomats who follow this archetype are wanderers, gold prospectors, and explorers.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Diplomat|EOS:Diplo|Prospector|EOS:Diplo|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Wilderness Toughness|Diplomat|EOS:Diplo|Prospector|EOS:Diplo|3"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"subclassShortName": "Prospector",
+			"subclassSource": "EOS:Diplo",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this archetype, you gain proficiency with medium armor, martial, and the Survival skill."
+			]
+		},
+		{
+			"name": "Wilderness Toughness",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"subclassShortName": "Prospector",
+			"subclassSource": "EOS:Diplo",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level when you choose this archetype, your current and maximum hit points increase by 3, and they increase by 1 each time you gain a level in this class.",
+				"In addition, you are considered naturally adapted to cold and high altitude environments."
+			]
+		},
+		{
+			"name": "Scramble",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"subclassShortName": "Prospector",
+			"subclassSource": "EOS:Diplo",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you are a master of traversing even the most difficult of surfaces and circumstances. You have a climbing speed and swimming speed equal to your base walking speed.",
+				"In addition, you can climb and move across difficult surfaces, such as narrow bridges, ice and snow, and loose stones, without having to make an ability check. Difficult terrain caused by natural environments do not reduce your movement."
+			]
+		},
+		{
+			"name": "Far-Traveller",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"subclassShortName": "Prospector",
+			"subclassSource": "EOS:Diplo",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"At 9th level, your knowledge of the wilderness is unrivalled. You cannot become lost, except by magical means. When scavenging for food and water, you can recover three times as much as normal for the terrain you are in.",
+				"n addition, you have advantage on Wisdom (Survival) checks made to determine the cause of a natural death, to track a creature, or to determine a safe path."
+			]
+		},
+		{
+			"name": "Tracker's Mark",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"subclassShortName": "Prospector",
+			"subclassSource": "EOS:Diplo",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Beginning at 14th level, you can use your action to mark one creature you can see within 60 feet of you. The mark lasts for a number of hours equal to your Charisma modifier (a minimum of 1 hour) or until you mark another creature.",
+				"While a creature is marked, you know its location, as long as you are on the same plane of existence as it. When a creature within 30 feet of you who can hear you hits the marked creature with an attack, that attack deals an additional {@damage 1d6} points of damage of the attack's type."
+			]
+		},
+		{
+			"name": "Wilderness Instinct",
+			"source": "EOS:Diplo",
+			"className": "Diplomat",
+			"classSource": "EOS:Diplo",
+			"subclassShortName": "Prospector",
+			"subclassSource": "EOS:Diplo",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, your natural instincts are honed to perfection. You cannot be surprised unless you are incapacitated by magical means.",
+				"You have advantage on saving throws against effects that you can see, such as traps or a red dragon's breath. You can only gain this benefit if you are not blinded or deafened.",
+				"In addition, you are hardy beyond an ordinary creature. You no longer require sleep, but must still rest by performing only light activity for 4 hours to gain the benefits of a long rest. You can survive without food or water for a number of days equal to your Charisma modifier (a minimum of 1), without gaining levels of exhaustion."
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Acrobatics",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"Your training allows you to quickly step out of harm's way.",
+				{
+					"name": "Acrobatics Specialty",
+					"entries": [
+						"You gain a +1 bonus to all Acrobatics ability checks."
+					]
+				},
+				{
+					"name": "Tumbler",
+					"entries": [
+						"You can stand from prone at the cost of only 5 feet of your movement, and you can take the {@action Disengage|PHB} action as a bonus action on your turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Animal Handling",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"You have extensive experience of controlling and training animals of many species.",
+				{
+					"name": "Animal Handling Specialty.",
+					"entries": [
+						"You gain a +1 bonus to all Animal Handling ability checks."
+					]
+				},
+				{
+					"name": "Tumbler",
+					"entries": [
+						"You attempt to calm a hostile beast within range. As an action, you speak to a beast within 30 feet of you that can hear you. That beast must make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier). If you or creatures friendly to you are fighting the creature, it has advantage on this save.",
+						"On a failed save, the beast is charmed by you for 1 minute. While charmed this way, it becomes docile and will not attack. Each time the beast takes damage, it can repeat its saving throw, ending this effect on a success.",
+						"When a creature succeeds a saving throw against this feature or the effect ends on it, it is immune to your Calm Beast feature for 24 hours."
+					]
+				}
+			]
+		},
+		{
+			"name": "Arcana",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"You have read many arcane tomes, learning the principles of spellcraft and magic.",
+				{
+					"name": "Arcana Specialty",
+					"entries": [
+						"You gain a +1 bonus to all Arcana ability checks."
+					]
+				},
+				{
+					"name": "Spellcraft",
+					"entries": [
+						"When you are targeted by or in the area of effect of a spell, you can use your reaction to attempt to identify the spell to counter it. Make an Intelligence (Arcana) check against the spell save DC. On a success, you have advantage on your saving throw against the spell.",
+						"You can use this feature a number of times equal to your Proficiency Bonus, and you regain expended uses when you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Athletics",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"You are trained at distance and endurance sport, helping you keep pace in battle.",
+				{
+					"name": "Athletics Specialty",
+					"entries": [
+						"You gain a +1 bonus to all Athletics ability checks."
+					]
+				},
+				{
+					"name": "Running Pace",
+					"entries": [
+						"Your base movement speed increases by 10 feet, and you can take the {@action Dash|PHB} action as a bonus action on your turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Deception",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"You have extensively studied the little ticks that show lies, allowing you to deceive others more easily.",
+				{
+					"name": "Deception Specialty",
+					"entries": [
+						"You gain a +1 bonus to all Deception ability checks."
+					]
+				},
+				{
+					"name": "Charlatan's Sense",
+					"entries": [
+						"You feel a prickling down your spine whenever you are targeted by Divination magic. You do not know who is using the magic. This feature also tells you if you are under the effects of Divination magic which affects an area, such as through an arcane sensor."
+					]
+				}
+			]
+		},
+		{
+			"name": "History",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"You have read many books on the history of the various nations of the world, granting you a better sense of the patterns of history.",
+				{
+					"name": "History Specialty",
+					"entries": [
+						"You gain a +1 bonus to all History ability checks."
+					]
+				},
+				{
+					"name": "Repeats Itself.",
+					"entries": [
+						"Roll a d20 and put it aside. When you make an ability check, you can swap the number rolled on the d20 for the ability check with the number rolled on the d20 you put aside, potentially changing the result. You may then use the swapped out d20 for a later ability check. In addition, once you have used this feature since your last long rest, the DM can force you to swap on one ability check before you finish a long rest.",
+						"When you finish a long rest, you can reroll the d20 you currently have set aside. You must keep the new roll."
+					]
+				}
+			]
+		},
+		{
+			"name": "Insight",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"You have trained yourself to read people's expressions and see through their attempted deceptions.",
+				{
+					"name": "Insight Specialty",
+					"entries": [
+						"You gain a +1 bonus to all Insight ability checks."
+					]
+				},
+				{
+					"name": "Soul-Searching",
+					"entries": [
+						"As a reaction when you fail a Wisdom (Insight) check to determine a creature's emotional state or motivations, you can reroll that ability check. If you succeed on this check, you also learn that creature's current emotional state and surface thoughts (as with the Detect Thoughts spell for 1 minute.",
+						"You can use this feature a number of times equal to your Proficiency Bonus, and you regain expended uses when you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Intimidation",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"You have mastered the art of bending others to your will by fearsome displays.",
+				{
+					"name": "Intimidation Specialty",
+					"entries": [
+						"You gain a +1 bonus to all Intimidation ability checks."
+					]
+				},
+				{
+					"name": "Roar of the Wild",
+					"entries": [
+						"As an action on your turn, each creature of your choice within 30 feet of you must make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier). On a failed save, that creature is frightened of you for 1 minute. A creature can repeat its saving throw at the end of each of its turns, ending this effect on a success.",
+						"Once a creature succeeds its saving throw against this effect, it is immune to your Roar of the Wild for 24 hours. Once you have used this feature, you cannot do so again until you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Investigation",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"You have trained your attention to detail, allowing you to carefully scour information to hand.",
+				{
+					"name": "Investigation Specialty",
+					"entries": [
+						"You gain a +1 bonus to all Investigation ability checks."
+					]
+				},
+				{
+					"name": "Meticulous Attention",
+					"entries": [
+						"You have advantage on any ability check or saving throw made to see through an illusion. You can make an Intelligence (Investigation) check to determine whether an entity is real or illusory as a bonus action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Medicine",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"Your talent with medicines allows you to patch up your allies on the fly.",
+				{
+					"name": "Medicine Specialty",
+					"entries": [
+						"You gain a +1 bonus to all Medicine ability checks."
+					]
+				},
+				{
+					"name": "Fix Them Up",
+					"entries": [
+						"You can expend 1 use of a healer's kit as an action to restore a number of hit points equal to your Wisdom modifier (a minimum of 1) to one creature you can touch within 5 feet of you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Nature",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"You have read many bestiaries and botanical encyclopedias, giving you a deep familiarity with the workings of the natural world.",
+				{
+					"name": "Nature Specialty",
+					"entries": [
+						"You gain a +1 bonus to all Nature ability checks."
+					]
+				},
+				{
+					"name": "Green Thumb",
+					"entries": [
+						"You are familiar with the natural state of life, and have a sense for when things are all wrong. You can choose to spend a 10 minute period studying the flora and fauna around you.",
+						"If you do so, you gain an understanding of what, if any, magical or chemical pollutants are effecting the plant and animal life in a 500-foot radius. For example, you may be able to detect an area of unhallowed ground or a toxic waste spillage in the vicinity."
+					]
+				}
+			]
+		},
+		{
+			"name": "Perception",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"Practice and a natural talent have made to adapt at noticing your surroundings.",
+				{
+					"name": "Perception Specialty",
+					"entries": [
+						"You gain a +1 bonus to all Perception ability checks."
+					]
+				},
+				{
+					"name": "Steady Sight",
+					"entries": [
+						"If you would gain disadvantage on a ranged attack roll due to high winds, you do not have disadvantage. In addition, the short range of your ranged attack rolls increases by a number of feet equal to 10 x your Wisdom modifier (a minimum of 10 feet), up to a maximum of the attack's long range."
+					]
+				}
+			]
+		},
+		{
+			"name": "Performance",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"From pratfalls to the many expressions of the face, you have received extensive training in the dramatic arts.",
+				{
+					"name": "Performance Specialty",
+					"entries": [
+						"You gain a +1 bonus to all Performance ability checks."
+					]
+				},
+				{
+					"name": "Side Step",
+					"entries": [
+						"As a reaction when you would be hit by an attack roll, you can increase your AC against that attack by a number equal to your Charisma modifier (a minimum of +1).",
+						"Once you have used this feature, you cannot do so again until you finish a short or long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Persuasion",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"Studying texts of oratory, you have learnt the finer art of persuasion and influence.",
+				{
+					"name": "Persuasion Specialty",
+					"entries": [
+						"You gain a +1 bonus to all Persuasion ability checks."
+					]
+				},
+				{
+					"name": "Charming Smile",
+					"entries": [
+						"As an action, choose a humanoid creature that can see you within 60 feet of you. That creature must make a Charisma saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be charmed by you until the end of the creature's next turn.",
+						"You can use this feature a number of times equal to your Proficiency bonus, and you regain expended uses when you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Piloting",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"You are experienced with many different kinds of craft, mastering a variety of piloting techniques.",
+				{
+					"name": "Piloting Specialty",
+					"entries": [
+						"You gain a +1 bonus to all Piloting ability checks."
+					]
+				},
+				{
+					"name": "Do A Barrel Roll",
+					"entries": [
+						"When you are in a high speed vehicle and you or that vehicle would be hit by an attack roll, you can use your reaction to increase your and the vehicle's AC by a number equal to your Charisma modifier (a minimum of +1) until the start of your next turn.",
+						"Once you have used this feature, you cannot do so again until you finish a short or long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Religion",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"You have read many religious tomes, learning the ways of the gods and divine philosophies of the land.",
+				{
+					"name": "Religion Specialty",
+					"entries": [
+						"You gain a +1 bonus to all Piloting ability checks."
+					]
+				},
+				{
+					"name": "Divine Favour",
+					"entries": [
+						"As a bonus action, you can call upon the favour of the gods. The next time you make an attack roll or saving throw, you can add a d4 to that d20 roll.",
+						"You can use this feature a number of times equal to your Proficiency bonus (a minimum of once). You regain expended uses when you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sleight of Hand",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"Years of training have taught you the mixture of manual dexterity and close-up magic needed for masterful sleight of hand.",
+				{
+					"name": "Sleight of Hand Specialty",
+					"entries": [
+						"You gain a +1 bonus to all Slight of Hand ability checks."
+					]
+				},
+				{
+					"name": "Magician's Secrets",
+					"entries": [
+						"As an action, you can perform a trick of close-up magic. You can perform one of the following tricks:",
+						{
+							"type": "list",
+							"items": [
+								"You cause a tiny beast to emerge from an item of clothing, such as a rabbit out of a hat or a dove out of your sleeve.",
+								"You draw any card of your choice from a deck, including a card you do not know which was chosen by a mark.",
+								"You escape from bonds, rope or chains that are binding you.",
+								"You cause a tiny item, such as a coin, small statue, or other trinket to disappear (up your sleeve) or to reappear in your hand."
+							]
+						},
+						"Your DM may allow you to perform other tricks of close-up magic if you can explain or demonstrate how they would be performed."
+					]
+				}
+			]
+		},
+		{
+			"name": "Stealth",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"You understand the art of moving silently, making you a masterful sneak.",
+				{
+					"name": "Stealth Specialty",
+					"entries": [
+						"You gain a +1 bonus to all Stealth ability checks."
+					]
+				},
+				{
+					"name": "Silent Guest",
+					"entries": [
+						"You can use the {@action Hide|PHB} action as a bonus action. In addition, you learn a sign language of your choice."
+					]
+				}
+			]
+		},
+		{
+			"name": "Survival",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"You have been trained in wilderness survival and the secrets of gathering food and tracking prey.",
+				{
+					"name": "Survival Specialty",
+					"entries": [
+						"You gain a +1 bonus to all Survival ability checks."
+					]
+				},
+				{
+					"name": "Innured to Poison",
+					"entries": [
+						"You have advantage on saving throws against disease and poison which is ingested. In addition, you have resistance to poison damage from poisons that are ingested."
+					]
+				}
+			]
+		},
+		{
+			"name": "Technology",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:ST"
+			],
+			"entries": [
+				"You have read manuals for many different kinds of advanced technology, granting you familiarity with their use.",
+				{
+					"name": "Technology Specialty",
+					"entries": [
+						"You gain a +1 bonus to all Technology ability checks."
+					]
+				},
+				{
+					"name": "Stable Overdrive",
+					"entries": [
+						"When you make an overdrive check fora gadget or technological item, you can choose to gain advantage on that roll.",
+						"You can use this feature once, and you regain expended uses when you finish a short or long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Baton Pass",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"As a bonus action, you can expend 1 improvisation point to swap places with an allied creature within 5 feet of you. If this moves you out of the reach of a hostile creature, it does not provoke {@action Opportunity Attacks|PHB|opportunity attacks}."
+			]
+		},
+		{
+			"name": "Blackmail",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"You can expend 3 improvisation points to convincingly insinuate that you know a creature's darkest secrets. That creature must make a Wisdom saving throw. The creature makes its saving throw with advantage if it is currently hostile to you.",
+				"On a failed save, the creature is frightened of you for 1 hour. This effect ends early if the creature takes damage or if you or one of your allies attacks the creature or targets it with a spell. While it is frightened in this way, you have advantage on Charisma ability checks made to influence the creature."
+			]
+		},
+		{
+			"name": "Body Shield",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"When a friendly creature within 5 feet of you would be hit by an attack, you can expend 1 improvisation point to become the target of that attack instead."
+			]
+		},
+		{
+			"name": "Disarming Smile",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"As a bonus action, you expend 2 improvisation points and target a creature within 30 feet of you that can see you. That creature must make a Charisma saving throw. On a failed save, the creature drops one object it is holding of your choice."
+			]
+		},
+		{
+			"name": "Drop the Roof",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"When you attack a structure or object, you can expend 1 improvisation point to deal double damage to that structure. You can expend further improvisation points to increase your damage, increasing the damage of the attack by {@damage 1d6} for each additional improvisation point expended."
+			]
+		},
+		{
+			"name": "Duck",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"As a reaction when you are targeted by a ranged attack, you can expend 1 improvisation point to increase your AC by your Charisma modifier (a minimum of +1).",
+				"If the attack then misses you and there is a creature behind you in the line of the attack within the range of the attack, the attack targets that creature instead."
+			]
+		},
+		{
+			"name": "Feather Touch",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"If you or a creature within 5 feet of you would trigger a trap by failing an attempt to disarm it, you can expend 3 improvisation points as a reaction to prevent the trap from triggering. The trap is still armed."
+			]
+		},
+		{
+			"name": "Feint",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"You can expend 1 improvisation point as a bonus action to feint. Choose a creature within your reach if you are unarmed or wielding a melee weapon, or within your weapon's short range if you are wielding a ranged weapon. That creature must make a Wisdom saving throw. On a failed save, the next attack roll against the target before the end of its next turn has advantage."
+			]
+		},
+		{
+			"name": "Judge the Room",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"As an action, you can expend 3 improvisation points to judge the social dynamics of the room. You immediately learn if two or more individuals in the room belong to a common group (although you do not learn the nature of the group), as well as the relative social or hierarchical status of each individual in the room, including who, if anyone, is in charge."
+			]
+		},
+		{
+			"name": "Kick Up Dust",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"As a bonus action, you can expend 2 improvisation point to throw sand or dust in the face of a hostile creature. The creature must succeed on a Constitution saving throw or be blinded until the end of its next turn."
+			]
+		},
+		{
+			"name": "Multitasker",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"When you are travelling, you can expend 2 improvisation points at the start of each day of journey to choose two actions to perform during the journey instead of one. For example, you could keep watch and make a map, or scavenge for food and keep watch."
+			]
+		},
+		{
+			"name": "Puff of Smoke",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"As a bonus action, you can expend 1 improvisation point to take the {@action Disengage|PHB} action."
+			]
+		},
+		{
+			"name": "Quickdraw",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"You can expend 1 improvisation point to draw or stow an additional weapon as part of your movement on your turn.",
+				"Once you have expended 3 improvisation points for this improvisation, you cannot expend any more points for it until the start of your next turn."
+			]
+		},
+		{
+			"name": "Reach for It",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"When you would make an attack, you can expend 2 improvisation points to extend the distance of your attack. If you are making a melee weapon attack, your reach for the attack increases by 5 feet. If you are making a ranged weapon attack, your short range for the attack increases by 20 feet (to a maximum of the long range of the attack)."
+			]
+		},
+		{
+			"name": "Riposte",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"When a creature misses you with a melee weapon attack, you can expend 2 improvisation points to make a melee weapon attack against that creature as a reaction."
+			]
+		},
+		{
+			"name": "Slip Through",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"You can expend 3 improvisation points as a bonus action to nimbly move between hostile creatures. Until the end of your turn, you can move through the space of a hostile creature without provoking opportunity attacks or needing to make an ability check."
+			]
+		},
+		{
+			"name": "Soft Landing",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"When you would take damage from falling, you can use your reaction to expend 1 or more improvisation points to reduce that damage. The damage you take from fall is reduced by {@dice 1d6} for each improvisation point you expend (up to a maximum of 10 points). If you expend 1 or more improvisation points in this way, you are not knocked prone by the fall and land standing."
+			]
+		},
+		{
+			"name": "Soft Spot",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"When you make an unarmed strike, you can expend 1 or more improvisation points to target softer regions. The attack deals an additional {@damage 1d6} bludgeoning damage for each improvisation point expended (up to a maximum of {@damage 5d6} additional damage). You cannot use this feature if you have disadvantage on the attack roll."
+			]
+		},
+		{
+			"name": "Trip",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"When you hit with a weapon attack, you can attempt to trip the target. Expend 1 improvisation point to force the target to make a Strength saving throw. On a failed save, the target falls prone."
+			]
+		},
+		{
+			"name": "When All You Have is a Hammer",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"When you make an attack with an improvised weapon, you can expend 1 improvisation point to become proficient with improvised weapons until the end of your next turn."
+			]
+		},
+		{
+			"name": "Wink",
+			"source": "EOS:Diplo",
+			"featureType": [
+				"EOS:I"
+			],
+			"entries": [
+				"As a bonus action, you can expend 1 improvisation point and choose a creature that can see you within 30 feet of you. The target must succeed on a Wisdom saving throw or become charmed by you until the end of the creature's next turn."
+			]
+		}
+	]
+}

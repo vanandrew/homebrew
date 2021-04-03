@@ -1,0 +1,1166 @@
+{
+	"$schema": "../schema.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "EOS",
+				"abbreviation": "EOS",
+				"full": "Eos (Andrew's Homebrew)",
+				"authors": [
+					"Andrew Van"
+				],
+				"convertedBy": [
+					"Andrew Van"
+				],
+				"version": "0.1",
+				"color": "853d19",
+				"url": "https://github.com/vanandrew/homebrew",
+				"targetSchema": "1.5.0"
+			}
+		],
+		"dateAdded": 1617421915,
+		"dateLastModified": 1617421915
+	},
+	"baseitem": [
+		{
+			"name": "S5",
+			"source": "EOS",
+			"type": "AF",
+			"rarity": "none",
+			"weight": 0.1,
+			"value": 50
+		},
+		{
+			"name": "P10x20mm",
+			"source": "EOS",
+			"type": "AF",
+			"rarity": "none",
+			"weight": 0.1,
+			"value": 40
+		},
+		{
+			"name": "PH10x30mm",
+			"source": "EOS",
+			"type": "AF",
+			"rarity": "none",
+			"weight": 0.1,
+			"value": 50
+		},
+		{
+			"name": "R8x40mm",
+			"source": "EOS",
+			"type": "AF",
+			"rarity": "none",
+			"weight": 0.1,
+			"value": 70
+		},
+		{
+			"name": "RH16x80mm",
+			"source": "EOS",
+			"type": "AF",
+			"rarity": "none",
+			"weight": 0.1,
+			"value": 100
+		},
+		{
+			"name": "60mm Shell",
+			"source": "EOS",
+			"type": "AF",
+			"rarity": "none",
+			"weight": 5,
+			"value": 1000
+		}
+	],
+	"feat": [
+		{
+			"name": "Driver",
+			"source": "EOS",
+			"entries": [
+				"You are proficient with all vehicles."
+			]
+		},
+		{
+			"name": "Magoclast",
+			"source": "EOS",
+			"prerequisite": [
+				{
+					"other": "Intelligence, Wisdom, or Charisma 19 or higher, and the ability to cast at least one spell"
+				}
+			],
+			"entries": [
+				"Using a series of injections of illicit chemical substances mixed with a touch of alchemical magic, you have an unstable balance of raw magic running through your veins.",
+				{
+					"type": "list",
+					"items": [
+						"At the end of each long rest, choose one cantrip from any spell list and either Intelligence, Wisdom or Charisma. You can learn that cantrip until your next long rest, using the chosen ability score as your spellcasting ability for it.",
+						"When you cast a spell, you can choose to have that spell cast at 1 level higher than the level of spell slot expended to cast the spell. You can use this feature a number of times equal to your Proficiency bonus between long rests.",
+						"When you are targetted by a spell or magical effect, your hit points are immedietly reduced to 0."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mechanist",
+			"source": "EOS",
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"entries": [
+				"You have practiced using flare and a perculiar style to distract your foes and catch them unawares, granting the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Intelligence score increases by 1, to a maximum of 20.",
+						"When you fail an {@variantrule Overdrive|EOS} check, you can choose to reroll that check. You must accept the new roll. You can do this 3 times, and you regain expended uses when you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Odd Shoes",
+			"source": "EOS",
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"entries": [
+				"You have practiced using flare and a perculiar style to distract your foes and catch them unawares, granting the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Charisma score increases by 1, to a maximum of 20.",
+						"As a bonus action on your turn, you can attempt to distract a creature within 30 feet of that. That creature must make a Wisdom saving throw contested by your Charisma (Performance) check. On a failed check, you have advantage on the next attack roll you make against that creature until the end of your turn. Once a creature has failed its save against this feature, it is immune to this feature for 24 hours."
+					]
+				}
+			]
+		},
+		{
+			"name": "Well-Groomed",
+			"source": "EOS",
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"entries": [
+				"You attended finishing school and etiquette classes, helping you to command an elegant presence in any situation. You gain the following benefits:",
+				"You have practiced using flare and a perculiar style to distract your foes and catch them unawares, granting the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Increase your Charisma score by 1, to a maximum of 20.",
+						"While you are wearing fine clothes or formal garments, you gain a +1 bonus to all Charisma ability checks.",
+						"You gain influence with the upper class."
+					]
+				}
+			]
+		},
+		{
+			"name": "Akimbo Master",
+			"source": "EOS",
+			"entries": [
+				"You master the art of wielding two ranged weapons at once. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can draw or holster two sidearms when you would normally be able to draw or holster only one.",
+						"If you are wielding two ranged weapons with the loading property, you can ignore the loading property for those weapons, and do not need a free hand to reload them.",
+						"You can wield two one-handed ranged weapons at once, even if they do not have the light property."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gunmaster",
+			"source": "EOS",
+			"entries": [
+				"You are a veritable master with guns, and gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Ignore the reloading property for non-heavy firearms.",
+						"If you are disarmed, you can use your reaction to draw and fire a light sidearm.",
+						"Increase the normal range of all firearms you wield by 10."
+					]
+				}
+			]
+		},
+		{
+			"name": "Buccaneer",
+			"source": "EOS",
+			"entries": [
+				"You have mastered the art of dueling with gun and sword, and gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you use the attack action with a one-handed melee weapon, you can spend a bonus action to fire a light firearm you wield in your other hand. You can use this bonus action to attack with a one handed melee weapon if you use your attack action with a light firearm.",
+						"While wielding a light firearm and a one-handed melee weapon, you gain a +1 bonus to your AC.",
+						"Ignore the loading time and reload action for light firearms. You do not need a free hand to load in the ammunition."
+					]
+				}
+			]
+		},
+		{
+			"name": "Close Quarters Shooter",
+			"source": "EOS",
+			"entries": [
+				"Making an attack with a ranged weapon while within 5 feet of a hostile creature does not impose disadvantage on the attack roll.",
+				"You cannot make a ranged attack roll with disadvantage at any target within 30 feet of you. However, if you would normally have disadvantage when making an attack roll within this range, such as a magical effect or obscured vision, you cannot get advantage on the attack roll either.",
+				"You can make opportunity attacks with ranged weapons. The reach for these attacks is 15 feet."
+			]
+		},
+		{
+			"name": "Gunsmith Initiate",
+			"source": "EOS",
+			"prerequisite": [
+				{
+					"other": "Intelligence 13 or higher and proficiency in smith's tools or tinker's tools"
+				}
+			],
+			"entries": [
+				"Your proficiency bonus is doubled in tinker's tools and/or smith's tools, and you can now craft firearms. You are assumed to have gotten the materials for the firearm you wish to craft before you took this feat. You craft these guns at a rate of 5gp per day."
+			]
+		},
+		{
+			"name": "Pistol Whipper",
+			"source": "EOS",
+			"entries": [
+				"You are skilled in using guns as melee weapons when and if they run out of bullets. You increase your Strength or Dexterity ability score by 1, to a maximum of 20, and are now considered proficient with firearms you use as melee weapons. The damage die for these firearms is as follows: sidearms are d6, and they are considered finesse weapons, longarms are d8, and heavy longarms are d10. The damage type for these attacks is bludgeoning."
+			]
+		},
+		{
+			"name": "Rifle Master",
+			"source": "EOS",
+			"entries": [
+				"Rifles are complex weapons, but you know just how to make every shot count. You gain the following benefits when wielding a rifle or carbine:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a +1 bonus to damage rolls with these weapons.",
+						"You can reroll 1s and 2s to damage with these weapons.",
+						"If you roll a critical hit or deal a killing blow with these weapons, you can use your reaction to take an additional shot at a creature within 10 feet of the creature hit.",
+						"The normal range of these weapons increases by 10, and the long range increases by 30."
+					]
+				}
+			]
+		},
+		{
+			"name": "Scattershot Master",
+			"source": "EOS",
+			"entries": [
+				"You have mastered getting the most effect out of firearms with the scatter property. You get the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a +1 to attack rolls with these weapons.",
+						"Your scatter damage can now target any creature of your choosing within the scatter range of your target (including the target).",
+						"You can reroll 1s and 2s to your scatter damage.",
+						"You can load all of the ammo for firearms with the scatter property using a bonus action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sidearm Master",
+			"source": "EOS",
+			"entries": [
+				"You have mastered the art of wielding a sidearm with delicate precision. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a +1 bonus to attack rolls made with these weapons.",
+						"When you take the attack action with a sidearm can use a bonus action to make an attack roll at a creature within 10 feet of you.",
+						"When you roll initiative and are not surprised, you can use your reaction to draw a sidearm and attack a creature within its normal range."
+					]
+				}
+			]
+		},
+		{
+			"name": "Six-Gun Ace",
+			"source": "EOS",
+			"entries": [
+				"You have perfected the art of shooting with your revolver or hand cannon. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a +1 bonus to attack rolls with these weapons.",
+						"You cannot be disarmed while wielding a revolver or hand cannon in one hand and your other hand is free.",
+						"When you make an attack with your revolver or hand cannon and are not holding anything in your other hand, you can use your bonus action to make two additional attacks against creatures within its normal range. You do not add your ability score modifier to the damage of these attacks, unless that modifier is negative."
+					]
+				}
+			]
+		},
+		{
+			"name": "Suppressive Fire",
+			"source": "EOS",
+			"entries": [
+				"When you have a firearm with the automatic or burst fire property drawn, you can use an action to suppress a field of fire within a 10 foot radius at any point within your weapon's normal range. This ability expends a number of bullets equal to half your firearm's total reload count when used. You cannot take bonus actions if you take this action. You must have at least half your gun's reload count loaded into your weapon to use this ability. When you use this ability, you gain the following benefits until the beginning of your next turn.",
+				{
+					"type": "list",
+					"items": [
+						"Creatures within the area have disadvantage on attack rolls and Dexterity Saving Throws.",
+						"Creatures within the area can only move at half speed and cannot Dash.",
+						"If any creatures move or take an action within the area or moves into its area for the first time, you can make an attack against them. You can make this attack for a number of times equal to half your proficiency bonus. You cannot make this attack at the same creature more than once. This attack does not expend ammunition."
+					]
+				}
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Grenade (Flashbang)",
+			"source": "EOS",
+			"type": "AF",
+			"rarity": "none",
+			"weight": 2,
+			"value": 5000,
+			"entries": [
+				"As an action, a character can pull the pin and throw this grenade at a point up to 30 feet away. Each creature within 60 feet of the grenade that does not cover its eyes must make a DC 12 Constitution saving throw or be blinded and deafened for 1 minute. A creature can repeat this saving throw at the end of each of its turns, ending this effect on itself on a success."
+			]
+		},
+		{
+			"name": "Grenade (Fragmentation)",
+			"source": "EOS",
+			"type": "AF",
+			"rarity": "none",
+			"weight": 1,
+			"value": 10000,
+			"entries": [
+				"As an action, a character can pull the pin and throw this grenade at a point up to 30 feet away. Each creature within 20 feet of the grenade must make a DC 15 Dexterity saving throw, taking 5d6 piercing damage on a failed save, or half as much damage on a successful one."
+			]
+		},
+		{
+			"name": "Grenade (Needler)",
+			"source": "EOS",
+			"type": "AF",
+			"rarity": "none",
+			"weight": 4,
+			"value": 20000,
+			"entries": [
+				"As an action, a character can pull the pin and throw this mechanical grenade at a point up to 30 feet away. Immediately after throwing and at the end of your turn for the next 1d6 rounds, each creature within 15 feet of that point must make a DC 12 Dexterity saving throw, taking 3d6 piercing damage on a failed save or half as much damage on a success.",
+				"The needler grenade is not destroyed by being thrown, but it runs out of needles after it fires for its full duration and must be reset by a weapons technician."
+			]
+		},
+		{
+			"name": "Grenade (Smoke)",
+			"source": "EOS",
+			"type": "AF",
+			"rarity": "none",
+			"weight": 2,
+			"value": 5000,
+			"entries": [
+				"As an action, a character can pull the pin and throw this grenade at a point up to 30 feet away. One round after the smoke grenade lands, it emits a cloud of smoke that creates a heavily obscured area in a 20-foot radius. A moderate wind (at least 10 miles per hour) disperses the smoke in 4 rounds; a strong wind (20 or more miles per hour) disperses it in 1 round."
+			]
+		},
+		{
+			"name": "Gunpowder (Keg)",
+			"source": "EOS",
+			"type": "AF",
+			"rarity": "none",
+			"weight": 20,
+			"value": 20000,
+			"entries": [
+				"Raw gunpowder can be used as an explosive. Gunpowder is sold in small wooden kegs or in water-resistant powder horns.",
+				"Setting fire to a container full of gunpowder can cause it to explode, dealing fire damage to creatures within 10 feet of it (3d6 for a powder horn, 7d6 for a keg). A successful DC 12 Dexterity saving throw halves the damage. Setting fire to announce of gunpowder causes it to flare for 1 round, shedding bright light in a 30-foot radius and dim light for an additional 30 feet."
+			]
+		},
+		{
+			"name": "Gunpowder (Powder Horn)",
+			"source": "EOS",
+			"type": "AF",
+			"rarity": "none",
+			"weight": 2,
+			"value": 2000,
+			"entries": [
+				"Raw gunpowder can be used as an explosive. Gunpowder is sold in small wooden kegs or in water-resistant powder horns.",
+				"Setting fire to a container full of gunpowder can cause it to explode, dealing fire damage to creatures within 10 feet of it (3d6 for a powder horn, 7d6 for a keg). A successful DC 12 Dexterity saving throw halves the damage. Setting fire to announce of gunpowder causes it to flare for 1 round, shedding bright light in a 30-foot radius and dim light for an additional 30 feet."
+			]
+		},
+		{
+			"name": "Crude Pistol",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"weaponCategory": "sidearm",
+			"property": [
+				"AF",
+				"L",
+				"RELD"
+			],
+			"range": "20/80",
+			"reload": 1,
+			"charges": 1,
+			"dmg1": "d6",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "P10x20mm",
+			"entries": [
+				"Ammunition Type: {@item P10x20mm|EOS}",
+				"Reload: 1",
+				"A makeshift pistol typically crafted by slum rats and criminals for self-defense.",
+				"It is little more than a tube with a firing pin."
+			],
+			"value": 100
+		},
+		{
+			"name": "Model 14 Revolver",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"weaponCategory": "sidearm",
+			"property": [
+				"AF",
+				"L",
+				"RELD"
+			],
+			"range": "40/120",
+			"reload": 6,
+			"charges": 6,
+			"dmg1": "d6",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "P10x20mm",
+			"entries": [
+				"Ammunition Type: {@item P10x20mm|EOS}",
+				"Reload: 6",
+				"The former standard issue sidearm of many Dradesian armies. It has found it's place as the first choice sidearm among many mercernaries and bounty hunters as a reliable and versitile weapon.",
+				"Designed and produced prior to the Unionist war, this double action revolver can be found in surplus across most weapon shops across Dradesia."
+			],
+			"value": 8000
+		},
+		{
+			"name": "Model 18 Heavy Revolver",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 4,
+			"weaponCategory": "sidearm",
+			"property": [
+				"AF",
+				"RELD"
+			],
+			"range": "40/120",
+			"reload": 6,
+			"charges": 6,
+			"dmg1": "d8",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "PH10x30mm",
+			"entries": [
+				"Ammunition Type: {@item PH10x30mm|EOS}",
+				"Reload: 6",
+				"A heavier version of the Model 14 revolver, the Model 18 was designed to provide defensive capabilities against Eldritch beasts.",
+				"The Model 18 fires a bullet with a greater powder charge, increasing the penetrating power of the weapon. However, this new calibar of bullet places greater stress on the weapon, which must be reinforced with heavier alloys."
+			],
+			"value": 9000
+		},
+		{
+			"name": "Sawn-Off Kuvil Shotgun",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 4,
+			"weaponCategory": "sidearm",
+			"property": [
+				"AF",
+				"RELD",
+				"SCA"
+			],
+			"range": "20/40",
+			"reload": 4,
+			"charges": 4,
+			"dmg1": "2d4",
+			"dmgType": "B",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "S5",
+			"entries": [
+				"Ammunition Type: {@item S5|EOS}",
+				"Reload: 4",
+				"Special Properties: {@b {@i Scatter}} ({@dice 1d4})",
+				"A sawn-off version of the {@item Kuvil Shotgun|EOS}. This reduces the weight of the weapon, at the cost of range and damage."
+			],
+			"value": 9000
+		},
+		{
+			"name": "Kuvil Lever-Action Carbine",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 6,
+			"weaponCategory": "longarm",
+			"property": [
+				"AF",
+				"RELD",
+				"2H"
+			],
+			"range": "50/150",
+			"reload": 12,
+			"charges": 12,
+			"dmg1": "d8",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "PH10x30mm",
+			"entries": [
+				"Ammunition Type: {@item PH10x30mm|EOS}",
+				"Reload: 6",
+				"Seeking to develop a low-cost carbine around the {@item PH10x30mm|EOS} round, the Kuvil Firearms Company designed a tubular magazine fed short rifle with a unique lever action design.",
+				"The Kuvil Lever-Action Carbine is a popular weapon among brave settlers seeking to establish settlements in the Dradesian wastes. The {@item PH10x30mm|EOS} provides ample penetrating power to break through the thick carapaces of Eldritch beasts."
+			],
+			"value": 9000
+		},
+		{
+			"name": "Model 94 Bolt-Action Rifle",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 10,
+			"weaponCategory": "longarm",
+			"property": [
+				"AF",
+				"RELD",
+				"2H"
+			],
+			"range": "90/300",
+			"reload": 6,
+			"charges": 6,
+			"dmg1": "d12",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "R8x40mm",
+			"entries": [
+				"Ammunition Type: {@item R8x40mm|EOS}",
+				"Reload: 6",
+				"Designed prior to the Unionist war, the Model 94 saw extensive use among all armies in the Unionist war. Fed from a 6 round stripper clip, the Model 94 was one of the first repeating rifles adopted by Dradesian armies.",
+				"Though the armies of some cities are steadily replacing the Model 94 with more advanced models, the Model 94 continues to remain the standard military rifle of many cities."
+			],
+			"value": 10000
+		},
+		{
+			"name": "Model 98 Bolt-Action Carbine",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 6,
+			"weaponCategory": "longarm",
+			"property": [
+				"AF",
+				"RELD",
+				"2H"
+			],
+			"range": "60/200",
+			"reload": 8,
+			"charges": 8,
+			"dmg1": "d10",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "R8x40mm",
+			"entries": [
+				"Ammunition Type: {@item R8x40mm|EOS}",
+				"Reload: 8",
+				"A shortened, lightened version of the Model 94. The Model 98 was intended for auxilliary and scout troops needing a lightweight rifle.",
+				"The Model 98 boasts a larger magazine, but smaller barrel which reduces the damage and range of the weapon."
+			],
+			"value": 10000
+		},
+		{
+			"name": "Kuvil Shotgun",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 7,
+			"weaponCategory": "longarm",
+			"property": [
+				"AF",
+				"RELD",
+				"2H",
+				"SCA"
+			],
+			"range": "30/60",
+			"reload": 6,
+			"charges": 6,
+			"dmg1": "d12",
+			"dmgType": "B",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "S5",
+			"entries": [
+				"Ammunition Type: {@item S5|EOS}",
+				"Reload: 6",
+				"Special Properties: {@b {@i Scatter}} ({@dice 1d6})",
+				"Designed by the Kuvil Firearms Company, the Kuvil shotgun is a close quarters weapon designed for the efficient dispatch of Eldritch beasts."
+			],
+			"value": 15000
+		},
+		{
+			"name": "Model 101 Heavy Bolt-Action Rifle",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 18,
+			"weaponCategory": "longarm",
+			"property": [
+				"AF",
+				"RELD",
+				"2H",
+				"H"
+			],
+			"range": "200/1000",
+			"reload": 1,
+			"charges": 1,
+			"dmg1": "3d8",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "R16x80mm",
+			"entries": [
+				"Ammunition Type: {@item R16x80mm|EOS}",
+				"Reload: 1",
+				"With the advent of steel airships, many militaries found the need for an armor piercing personal weapon for destroying small scout skiffs.",
+				"Designed for hunting large Eldritch beasts, the Model 101 was repurposed by most Dradesian armies in an Anti-material role. It saw great use in the many sky battles of the Unionist war."
+			],
+			"value": 30000
+		},
+		{
+			"name": "Aftomat Autogun",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 3,
+			"weaponCategory": "sidearm",
+			"property": [
+				"AF",
+				"L",
+				"RELD",
+				"AUTO"
+			],
+			"range": "40/120",
+			"reload": 32,
+			"charges": 32,
+			"dmg1": "2d4",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "P10x20mm",
+			"entries": [
+				"Ammunition Type: {@item P10x20mm|EOS}",
+				"Reload: 32",
+				"Special Properties: {@b {@i Automatic}} ({@dice 6d4})",
+				"A newcomer to Firearms development, the Aftomat Defense Company has designed a revolutionary mechanism for auto-loading firearms.",
+				"Their secret design allows an operator to fire mutiple shots with a single pull of the trigger, releasing a large volume of fire in a short period of time. Seeking adoption by the New Miltia military, the Aftomat Auto Gun underwent military trials, but was found to be a \"waste\" of ammunition after scoring a low hit probability on stationary practice targets. This, combined with it's high cost have turned away most military customers of the weapon.",
+				"The Aftomat Auto Gun has found it's way to the civilian market, but it's high cost has presented a barrier to widespread sales. Only the richest mercenaries and buunty hunters have adopted the weapon."
+			],
+			"value": 110000
+		},
+		{
+			"name": "Aftomat Burst Pistol",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 3,
+			"weaponCategory": "sidearm",
+			"property": [
+				"AF",
+				"L",
+				"RELD",
+				"BRST"
+			],
+			"range": "30/90",
+			"reload": 18,
+			"charges": 18,
+			"dmg1": "d8",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "P10x20mm",
+			"entries": [
+				"Ammunition Type: {@item P10x20mm|EOS}",
+				"Reload: 18",
+				"Special Properties: {@b {@i Burst}} ({@dice 3d8})",
+				"Trying to address the issues raised by the New Miltia military on the {@item Aftomat Auto Gun|EOS}, the Aftomat Defense Company developed the Aftomat Burst Pistol.",
+				"A more controllable version of the Aftomat Auto Gun, the Aftomat Burst pistol fires a controllable salvo that allows for a higher hit probability while maintaining a high volume of fire.",
+				"Like the Aftomat Auto Gun, it's high cost has been a barrier to widespread adoption."
+			],
+			"value": 110000
+		},
+		{
+			"name": "Model 24 Semi-Automatic Pistol",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 3,
+			"weaponCategory": "sidearm",
+			"property": [
+				"AF",
+				"L",
+				"RELD"
+			],
+			"range": "50/180",
+			"reload": 8,
+			"charges": 8,
+			"dmg1": "d8",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "P10x20mm",
+			"entries": [
+				"Ammunition Type: {@item P10x20mm|EOS}",
+				"Reload: 8",
+				"The current standard issue sidearm of the Confederation. It boasts greater range, damage, and ammunition capacity over the previous Model 14 revolver."
+			],
+			"value": 60000
+		},
+		{
+			"name": "Virgil Hand Cannon",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 4,
+			"weaponCategory": "sidearm",
+			"property": [
+				"AF",
+				"RELD",
+				"H"
+			],
+			"range": "60/200",
+			"reload": 6,
+			"charges": 6,
+			"dmg1": "d10",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "R8x40mm",
+			"entries": [
+				"Ammunition Type: {@item R8x40mm|EOS}",
+				"Reload: 6",
+				"Seeking a powerful sidearm that can take down the most sturdy of Eldritch beasts, the Enforcers of the Faith commissioned Virgil Anvilgut, a preeminent dwarven gunsmith, to design a pistol around the {@item R8x40mm|EOS} rifle round. This development resulted in the Virgil Hand Cannon.",
+				"Taking its spot as the most powerful sidearm ever constructed, the Virgil Hand Cannon requires great strength and skill to use due to its high recoil."
+			],
+			"value": 80000
+		},
+		{
+			"name": "Model 104 Semi-Automatic Rifle",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 10,
+			"weaponCategory": "longarm",
+			"property": [
+				"AF",
+				"RELD",
+				"2H"
+			],
+			"range": "100/350",
+			"reload": 10,
+			"charges": 10,
+			"dmg1": "d12",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "R8x40mm",
+			"entries": [
+				"Ammunition Type: {@item R8x40mm|EOS}",
+				"Reload: 10",
+				"The latest standard issue rifle of the New Miltia military. This rifle boasts a larger magazine, greater range, and a new self loading mechanism for rapid fire."
+			],
+			"value": 100000
+		},
+		{
+			"name": "Aftomat Burst Rifle",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 8,
+			"weaponCategory": "longarm",
+			"property": [
+				"AF",
+				"RELD",
+				"2H",
+				"BRST"
+			],
+			"range": "90/300",
+			"reload": 18,
+			"charges": 18,
+			"dmg1": "d12",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "R8x40mm",
+			"entries": [
+				"Ammunition Type: {@item R8x40mm|EOS}",
+				"Reload: 18",
+				"Special Properties: {@b {@i Burst}} ({@dice 3d12})",
+				"A rifle version of the Aftomat Burst Pistol."
+			],
+			"value": 200000
+		},
+		{
+			"name": "Aftomat Autorifle",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 8,
+			"weaponCategory": "longarm",
+			"property": [
+				"AF",
+				"RELD",
+				"2H",
+				"AUTO"
+			],
+			"range": "90/300",
+			"reload": 32,
+			"charges": 32,
+			"dmg1": "2d6",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "R8x40mm",
+			"entries": [
+				"Ammunition Type: {@item R8x40mm|EOS}",
+				"Reload: 32",
+				"Special Properties: {@b {@i Automatic}} ({@dice 6d6})",
+				"A rifle version of the Aftomat Autogun."
+			],
+			"value": 200000
+		},
+		{
+			"name": "Kerela Double Barrel Shotgun",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 11,
+			"weaponCategory": "longarm",
+			"property": [
+				"AF",
+				"RELD",
+				"2H",
+				"SCA"
+			],
+			"range": "90/300",
+			"reload": 2,
+			"charges": 2,
+			"dmg1": "2d6",
+			"dmgType": "B",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "S5",
+			"entries": [
+				"Ammunition Type: {@item S5|EOS}",
+				"Reload: 2",
+				"Special Properties: {@b {@i Scatter}} ({@dice 1d8})",
+				"The Kerela boasts a double barrel design, such that each barrel can be fired off independently.",
+				"Double Barrel shotguns can be fired twice per attack. When you make an attack roll with a double barrel shotgun, you can make two attack rolls at the same creature. The second attack roll is made with disadvantage, and on a hit, you do not add your ability score modifier to the damage of that attack, unless your modifier is negative."
+			],
+			"value": 90000
+		},
+		{
+			"name": "Model 121 Anti-Material Rifle",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 18,
+			"weaponCategory": "longarm",
+			"property": [
+				"AF",
+				"RELD",
+				"2H",
+				"H"
+			],
+			"range": "300/1800",
+			"reload": 5,
+			"charges": 5,
+			"dmg1": "3d12",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "R16x80mm",
+			"entries": [
+				"Ammunition Type: {@item R16x80mm|EOS}",
+				"Reload: 5",
+				"A long range, large caliber rifle dedicated to the destruction of non-personnel military targets."
+			],
+			"value": 400000
+		},
+		{
+			"name": "Model 203 Shoulder Cannon",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 30,
+			"weaponCategory": "longarm",
+			"property": [
+				"AF",
+				"RELD",
+				"2H",
+				"H",
+				"EXPL"
+			],
+			"range": "60/200",
+			"reload": 1,
+			"charges": 1,
+			"dmg1": "4d10",
+			"dmgType": "B",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "60mm Shell",
+			"entries": [
+				"Ammunition Type: {@item 60mm Shell|EOS}",
+				"Reload: 1",
+				"A lightweight man-portable weapon for close-range fire support."
+			],
+			"value": 600000
+		},
+		{
+			"name": "Enforcer Gunblade",
+			"source": "EOS",
+			"type": "R",
+			"rarity": "none",
+			"weight": 10,
+			"weaponCategory": "longarm",
+			"property": [
+				"AF",
+				"RELD",
+				"2H"
+			],
+			"range": "90/300",
+			"reload": 6,
+			"charges": 6,
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "R8x40mm",
+			"entries": [
+				"Ammunition Type: {@item R8x40mm|EOS}",
+				"Reload: 6",
+				"Special Properties: You can use your action to instead do a melee attack with this weapon. On a hit, this weapon does {@dice 1d12} slashing damage.",
+				"This is a unique weapon only carried by Enforcers of the Faith. As such, any non-member found carrying this weapon is in violation of temple rules."
+			]
+		}
+	],
+	"itemProperty": [
+		{
+			"abbreviation": "RELD",
+			"source": "EOS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Some ranged weapons can be fired a number of times before they must be reloaded. Ranged weapons with the reload property take an action (player's choice) to reload its ammunition.",
+						"If you wield two light ranged weapons with the reload property, you can reload them both at once as an action during your turn."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "AUTO",
+			"source": "EOS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Automatic",
+					"entries": [
+						"Automatic firearms can make a separate attack that releases a salvo of bullets per pull of the trigger. As an action, you can force any creatures of your choice in a 25-foot square centered on a point within your firearm's maximum range to make a Dexterity saving throw, taking the gun's automatic damage (listed in parenthesis) on a failed save, and half that damage on a success. This action subtracts 10 rounds from your gun. You can use this action only if you have the ammunition available to do so.",
+						"Additionally, guns with the automatic property always expend 6 rounds per attack.",
+						{
+							"type": "abilityGeneric",
+							"name": "Automatic Save DC (Not Proficient)",
+							"text": "8 + ",
+							"attributes": [
+								"dex"
+							]
+						},
+						{
+							"type": "abilityDc",
+							"name": "Automatic Save DC (Proficient)",
+							"attributes": [
+								"dex"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "BRST",
+			"source": "EOS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Burst",
+					"entries": [
+						"Burst fire firearms are able to make a special attack that releases a stream of multiple bullets. As an action, you can force up to 6 creatures of your choice in a 15-foot square centered on a point within your gun's maximum range to make a Dexterity saving throw, taking your gun's burst fire damage (listed in parenthesis) on a failed save, and half that damage on a success. This action subtracts 6 rounds from your gun. You can use this action only if you have the ammunition available to do so.",
+						"Additionally, guns with the burst fire property always expend 3 rounds per attack.",
+						{
+							"type": "abilityGeneric",
+							"name": "Burst Fire Save DC (Not Proficient)",
+							"text": "8 + ",
+							"attributes": [
+								"dex"
+							]
+						},
+						{
+							"type": "abilityDc",
+							"name": "Burst Fire Save DC (Proficient)",
+							"attributes": [
+								"dex"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SCA",
+			"source": "EOS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Scatter",
+					"entries": [
+						"Firearms with the scatter property have two types of damage, a regular damage roll and a scatter damage roll. When you hit a creature with a firearm that has the scatter property, creatures within 5 feet of the target take scatter damage if the attack would hit them. The original target does not take this damage.",
+						"You gain resistance to the scatter damage dealt from your firearm attacks.",
+						"A spell cast using a firearm with the scatter property only triggers once, and only on the original target of the attack."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "EXPL",
+			"source": "EOS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Explosive",
+					"entries": [
+						"On a hit, each creature within 10 feet of the target must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier). A creature takes the weapon's damage on a failed save, or half as much damage on a success."
+					]
+				}
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Akimbo Shooting",
+			"source": "EOS",
+			"featureType": [
+				"FS:F",
+				"FS:P",
+				"FS:R"
+			],
+			"entries": [
+				"When you take the attack action with a light weapon, you can use a bonus action to make an attack with a light ranged weapon you are holding. You do not add your ability score modifier to the damage of this attack, unless that modifier is negative."
+			]
+		},
+		{
+			"name": "Breacher",
+			"source": "EOS",
+			"featureType": [
+				"FS:F",
+				"FS:P",
+				"FS:R"
+			],
+			"entries": [
+				"When you make a ranged attack at a creature within 15 feet of you and you roll a 1 or 2 on the damage die, you can reroll the damage die and must take the new roll, even if the number is a 1 or a 2. The weapon must have the scatter property in order to gain this benefit."
+			]
+		},
+		{
+			"name": "Deadeye",
+			"source": "EOS",
+			"featureType": [
+				"FS:F",
+				"FS:P",
+				"FS:R"
+			],
+			"entries": [
+				"You get a +2 bonus to attack rolls you make with martial and simple ranged weapons, as well as longarms which do not have the bulky or scatter property."
+			]
+		},
+		{
+			"name": "Dueling Edit",
+			"source": "EOS",
+			"featureType": [
+				"FS:F",
+				"FS:P",
+				"FS:R"
+			],
+			"entries": [
+				"When wielding a one-handed weapon in one hand and no other weapons, you get a +2 bonus to your damage rolls with these weapons."
+			]
+		},
+		{
+			"name": "Sniper",
+			"source": "EOS",
+			"featureType": [
+				"FS:F",
+				"FS:P",
+				"FS:R"
+			],
+			"entries": [
+				"You gain a +2 bonus to damage rolls if you attack a creature further than 30 feet away from you with a ranged weapon or a firearm that does not have the scatter property."
+			]
+		},
+		{
+			"name": "Phalanx",
+			"source": "EOS",
+			"featureType": [
+				"FS:F",
+				"FS:P",
+				"FS:R"
+			],
+			"entries": [
+				"You can now wield a two-handed melee weapon, heavy crossbow, light crossbow, or a longarm with a shield, but you must use an action to brace the weapon against the shield in order to attack with it. The weapon stays braced in this way as long as you move no more than 10 feet during your turn. The weapon loses any benefits you gain from using it with two hands while braced."
+			]
+		}
+	],
+	"variant": [],
+	"variantrule": [
+		{
+			"name": "Overdrive",
+			"source": "EOS",
+			"ruleType": "O",
+			"entries": [
+				"Due to the unstable nature of the technology used to produce gadgets, many can be pushed to new power levels by means of a method called overdrive.",
+				"Gadgets with an Overdrive (X or less) property can be put into overdrive, unlocking a more powerful version of the gadget but making it more unstable.",
+				"While the gadget is in overdrive, when directed by the Overdrive feature you must make an Overdrive check for the gadget. To do this, roll a d20 and compare the value rolled to the X value given in the Overdrive (X or less) trait. If the number rolled on the d20 is less than or equal to the X value, the device fails its overdrive check.",
+				"Whenever a device fails an Overdrive check, it breaks and ceases to function. You cannot gain the benefits of a broken gadget until you have it repaired."
+			]
+		},
+		{
+			"name": "Piloting Skill",
+			"source": "EOS",
+			"ruleType": "O",
+			"entries": [
+				"The DM may choose to introduce an additional skill, Piloting. This is a Dexterity skill, which is used similar to Animal Handling, except to maintain control of high-speed vehicles.",
+				{
+					"type": "entries",
+					"name": "Piloting Proficiency",
+					"entries": [
+						"The following classes can take choose the Piloting skill as one of their class skill proficiencies: artificer, bard, fighter, mechanic, monk, paladin, ranger, or rogue. In addition, any background can choose to take proficieny in the Piloting skill instead of one of its usual skill proficiencies, although this option is particularly appropriate for the criminal, guild artisan, outlander, sailor, and soldier backgrounds."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Piloting Skill Checks",
+					"entries": [
+						"When there is any question whether you can control a vehicle in extreme conditions, the DM may call for a Dexterity (Piloting) check.",
+						"The DM may also call for Intelligence (Piloting) checks to determine faults with a vehicle, or Wisdom (Piloting) checks to predict the movements of another vehicle.",
+						"The most common use of the Piloting skill is to make Dexterity (Piloting) checks to control your vehicle when you make a risky maneuver, especially in combat."
+					]
+				}
+			]
+		}
+	]
+}

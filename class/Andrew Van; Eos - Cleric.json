@@ -87,11 +87,10 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item Model 18 Heavy Revolver|EOS} or (b) a {@item Sawn-Off Kuvil Shotgun|EOS} (if proficient)",
-					"(a) {@item scale mail|phb}, (b) {@item leather armor|phb}, or (c) {@item chain mail|phb} (if proficient)",
-					"(a) a {@item light crossbow|phb} and {@item Crossbow Bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item Model 18 Heavy Revolver|EOS} or (b) a {@item Sawn-Off Kuvil Shotgun|EOS}",
+					"(a) {@item Hide Vest|EOS}, (b) {@item Leather Vest|EOS}, or (c) {@item Chain Coat|EOS} (if proficient)",
 					"(a) a {@item priest's pack|phb} or (b) an {@item explorer's pack|phb}",
-					"A {@item shield|phb} and a {@item holy symbol|phb}"
+					"A {@item Buckler|EOS}, a {@item holy symbol|phb}, and a {@item Knife|EOS}"
 				],
 				"goldAlternative": "{@dice 6d4 × 10|6d4 × 10|Starting Gold}",
 				"defaultData": [
@@ -105,24 +104,13 @@
 					},
 					{
 						"a": [
-							"scale mail|phb"
+							"Hide Vest|EOS"
 						],
 						"b": [
-							"leather armor|phb"
+							"Leather Vest|EOS"
 						],
 						"c": [
-							"chain mail|phb"
-						]
-					},
-					{
-						"a": [
-							"light crossbow|phb",
-							"Crossbow Bolts (20)|phb"
-						],
-						"b": [
-							{
-								"equipmentType": "weaponSimple"
-							}
+							"Chain Coat|EOS"
 						]
 					},
 					{
@@ -135,8 +123,9 @@
 					},
 					{
 						"_": [
-							"shield|phb",
-							"holy symbol|phb"
+							"Buckler|EOS",
+							"holy symbol|phb",
+							"Knife|EOS"
 						]
 					}
 				]

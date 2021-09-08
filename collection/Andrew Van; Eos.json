@@ -23,6 +23,467 @@
 	},
 	"baseitem": [
 		{
+			"name": "Knife",
+			"source": "EOS",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 200,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"dagger": true,
+			"weapon": true
+		},
+		{
+			"name": "Baton/Truncheon",
+			"source": "EOS",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 500,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true
+		},
+		{
+			"name": "Brass Knuckles",
+			"source": "EOS",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 1000,
+			"weaponCategory": "simple",
+			"property": [
+				"S"
+			],
+			"dmg1": "1",
+			"dmgType": "B",
+			"weapon": true,
+			"entries": [
+				"This weapon is used in combination with an unarmed strike to provide added damage."
+			]
+		},
+		{
+			"name": "Cane",
+			"source": "EOS",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 500,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true
+		},
+		{
+			"name": "Dirk",
+			"source": "EOS",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 1000,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true
+		},
+		{
+			"name": "Riding Crop",
+			"source": "EOS",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 500,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d2",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"name": "Wood Stake",
+			"source": "EOS",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 500,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true
+		},
+		{
+			"name": "Chain Whip",
+			"source": "EOS",
+			"type": "M",
+			"rarity": "none",
+			"weight": 5,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"R",
+				"S"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"entries": [
+				"This weapon allows a large or smaller target that is hit to be knocked prone on a successful contested Dexterity check."
+			]
+		},
+		{
+			"name": "Cane Sword",
+			"source": "EOS",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L",
+				"S"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"entries": [
+				"This weapon is a cane with a sword that can be slid out and looks like an ordinary cane when inspected. A successful Intelligence (Investigation) DC 12 check will reveal the hidden weapon. The blade uses the statistics for the {@item Rapier|EOS} and shares proficiency with it."
+			]
+		},
+		{
+			"name": "Cutlass",
+			"source": "EOS",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"name": "Dueling Cane",
+			"source": "EOS",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"weapon": true
+		},
+		{
+			"name": "Halberd",
+			"source": "EOS",
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 2000,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"name": "Kopis",
+			"source": "EOS",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"name": "Rapier",
+			"source": "EOS",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"weapon": true
+		},
+		{
+			"name": "Sabre",
+			"source": "EOS",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 3500,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"name": "Whip",
+			"source": "EOS",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 200,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"R"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"name": "Combat Robe",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "MA",
+			"weight": 10,
+			"value": 25000,
+			"ac": 11,
+			"armor": true,
+			"entries": [
+				"This robe has the same armor class as clothing. It is favored by arcane arts users who find themselves mixed up in combat. The robe provides some added protection to the wearer with padding and leather in wearer's most vulnerable spots. Wearing this armor requires no proficiency with Light, Medium, or Heavy Armor."
+			]
+		},
+		{
+			"name": "Uniform",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "LA",
+			"weight": 8,
+			"value": 2000,
+			"ac": 11,
+			"armor": true,
+			"entries": [
+				"Military uniform made of tough cloth, cotton and other fibres. Identifies the wearer as a combatant of a specific military force."
+			]
+		},
+		{
+			"name": "Leather Vest",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "LA",
+			"weight": 10,
+			"value": 1000,
+			"ac": 11,
+			"armor": true,
+			"entries": []
+		},
+		{
+			"name": "Assassin's Outfit",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "LA",
+			"weight": 2,
+			"value": 5000,
+			"ac": 10,
+			"armor": true,
+			"entries": [
+				"This outfit has the same armor class as clothing, but it is so well suited to hiding in the shadows that it provides advantage on stealth checks. It also has many small compartments for objects such as poison vials and daggers."
+			]
+		},
+		{
+			"name": "Studded Leather Vest",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "LA",
+			"weight": 13,
+			"value": 4500,
+			"ac": 12,
+			"armor": true,
+			"entries": []
+		},
+		{
+			"name": "Masterwork Coat",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "LA",
+			"weight": 11,
+			"value": 5000,
+			"ac": 12,
+			"armor": true,
+			"entries": [
+				"A reinforced full length leather coat."
+			]
+		},
+		{
+			"name": "Hide Vest",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "MA",
+			"weight": 12,
+			"value": 1000,
+			"ac": 12,
+			"armor": true,
+			"entries": []
+		},
+		{
+			"name": "Chain Vest",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "MA",
+			"weight": 20,
+			"value": 5000,
+			"ac": 13,
+			"armor": true,
+			"entries": []
+		},
+		{
+			"name": "Cuirass",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "MA",
+			"weight": 20,
+			"value": 40000,
+			"ac": 14,
+			"armor": true,
+			"entries": []
+		},
+		{
+			"name": "Scrap Plate",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "MA",
+			"weight": 40,
+			"value": 5000,
+			"ac": 15,
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"Armor crafted from scrap parts and antique armor."
+			]
+		},
+		{
+			"name": "Chain Coat",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "HA",
+			"weight": 55,
+			"value": 7500,
+			"ac": 16,
+			"strength": 13,
+			"armor": true,
+			"stealth": true,
+			"entries": []
+		},
+		{
+			"name": "Gear Plate",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "HA",
+			"weight": 60,
+			"value": 125000,
+			"strength": 15,
+			"ac": 18,
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"Plate armor crafted to be lighter with reinforced gear-aided joints to provide easier movement and more protection."
+			]
+		},
+		{
+			"name": "Mech Plate",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "HA",
+			"weight": 50,
+			"value": 200000,
+			"strength": 13,
+			"ac": 18,
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"Improved version of the {@item Gear Plate|EOS} with more mechanically efficient joints."
+			]
+		},
+		{
+			"name": "Buckler",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "S",
+			"weight": 4,
+			"value": 500,
+			"ac": 1,
+			"entries": [
+				"Small metal shield held in a fist grip. This shield is not strapped onto the arm, so it can be donned or doffed in tandem with your movement and action."
+			]
+		},
+		{
+			"name": "Ballistic Shield",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "S",
+			"weight": 6,
+			"value": 1000,
+			"ac": 2,
+			"entries": []
+		},
+		{
+			"name": "Parasol Shield",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "S",
+			"weight": 4,
+			"value": 1500,
+			"ac": 1,
+			"entries": [
+				"This light, metal shield can be collapsed into a parasol when not being used."
+			]
+		},
+		{
 			"name": "S5",
 			"source": "EOS",
 			"type": "AF",
@@ -310,6 +771,624 @@
 		}
 	],
 	"item": [
+		{
+			"name": "Amulet of Intervention",
+			"source": "EOS",
+			"rarity": "rare",
+			"weight": 0.25,
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"This amulet takes the shape of a large golden square. It has red and green gems inlaid on one side and engraved with the image of a pair of wings on the other side. When worn, it protects you from disaster and wards away death.",
+				"{@b {@i Guardian Angel.}} If you would be subjected to an effect that would reduce you to 0 hit points, the amulet automatically activates. A golden sphere of light bursts forth, negating the damage dealt and rendering you immune to all damage and all conditions. This sphere lasts for up to 1 round before fading away. Once this ability is activated, the amulet loses its magic until the next dawn."
+			]
+		},
+		{
+			"name": "Abyss Ring",
+			"source": "EOS",
+			"type": "RG",
+			"rarity": "rare",
+			"weight": 0.25,
+			"reqAttune": true,
+			"entries": [
+				"This silver ring is has shards of jagged obsidian along the outside and has three small rubies inset at equal lengths away from each other that seem to remain dull and dark no matter what lighting conditions are around.",
+				"Each gem holds a single charge, for a total of three charges. The ring regains 1d4 + 1 expended charges daily at dawn as long as you are not looking at it when it recharges.",
+				"While wearing and attuned to the abyss ring, you can expend a charge to cast invisibility on yourself. Rather than requiring concentration, the spell maintains itself only as long as you can hold your breath. (Follow the rules for holding your {@book breath and suffocation detailed on page 183 of the Player's Handbook|PHB|8|Suffocating}."
+			]
+		},
+		{
+			"name": "Bandolier of Blades",
+			"source": "EOS",
+			"rarity": "rare",
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"This hard leather bandolier is lined with woolen cord. Its pouch glows with a faint yellow light, and has slots for four daggers. A nonmagical dagger placed in this bandolier is infused with magic, and when it is drawn from the bandolier it acts as a +1 dagger for 1 minute. If the dagger is thrown during this duration, it automatically reappears within the bandolier as long as it is on the same plane as the thrower. You can draw a dagger from the bandolier as part of the action used to attack with it."
+			]
+		},
+		{
+			"name": "Bells of the Meticulous Magician",
+			"source": "EOS",
+			"rarity": "very rare",
+			"weight": 1,
+			"wondrous": true,
+			"entries": [
+				"Three golden bells sit in a small, leather-bound case that attaches to the waist. The first a pyramid-shaped bell with 4 triangular emeralds. The second is a cylindrical bell with 4 oval sapphires, and the last is a cube-shaped bell with 4 square rubies inset. The gems on the bells give off a faint glow, tinting them green, blue, and red respectively. Each bell holds four charges, represented by each of the four gemstones inlaid into its surface; as a bonus action, you can ring one of the bells, expending one charge. Each bell regains one expended charge daily at dawn.",
+				"The sound of a bell can be heard clearly out to 15 feet, and faintly for another 15 feet.",
+				"{@b {@i Pyramid Bell.}} The sharp sound of this bell causes a surface you choose to give off a faint green glow. This glow reveals the presence of hidden objects, fixtures, or passages behind or beneath the surface, but only if the DC for finding the object is 15 or lower. The pyramid bell can only affect a surface no larger than a square 5 feet on a side.",
+				"{@b {@i Cylinder Bell.}} The tinkling chime of this bell sounds like a set of keys. When rung, a single nonmagical lock or simple trap you can see glows a faint blue. If the DC to unlock the lock or disarm the trap is 15 or lower, the bell's magic unlocks or disarms it. The object affected this way can be no larger than 10 feet in any dimension.",
+				"{@b {@i Cube Bell.}} The low drone of this bell seems to resonate with the weave of magic itself. A soft, red glow appears on an object or surface you can see, dispelling a single magical trap or magical lock that has a DC of 15 or lower. The object affected this way must fit within a square 5 feet on a side."
+			]
+		},
+		{
+			"name": "Clock of Synchrony",
+			"source": "EOS",
+			"rarity": "common",
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"This brass pocket watch has three stoppers along its top edge. It keeps good time when wound, and its reverse side is engraved with an image of two chain links linked together.",
+				"The item is designed to trigger the movement of up to two devices at the same time. The two devices must have mechanical controls and must be within 100 feet of each other. By pressing either the left or the right stopper while pressing a button, pulling a lever, or otherwise activating a mechanical control, the watch stores that movement and can magically re-trigger it. The watch only stores two such movements at a time, one for the left stopper, and one for the right. Pressing the center stopper while within 100 feet of at least one of the devices remotely triggers both the stored movements at the same time.",
+				"Pressing all three stoppers together causes the watch to reset itself."
+			]
+		},
+		{
+			"name": "Compass of Magic Detection",
+			"source": "EOS",
+			"rarity": "rare",
+			"weight": 0.25,
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"The compass points in the general direction of the highest concentration of magic in the vicinity. You can also use this compass to track a \"magical trail\" in much the same way that you would follow physical tracks. To do so, roll a Wisdom (Survival) check. The DC starts at 10 and increases by 5 for each hour that has passed since the source of magic was present."
+			]
+		},
+		{
+			"name": "Demonskin Cloak",
+			"source": "EOS",
+			"rarity": "very rare",
+			"weight": 2,
+			"wondrous": true,
+			"reqAttune": "by a sorcerer, warlock, or wizard",
+			"reqAttuneTags": [
+				{
+					"class": "sorcerer"
+				},
+				{
+					"class": "warlock"
+				},
+				{
+					"class": "wizard"
+				}
+			],
+			"entries": [
+				"This ankle-length hooded cloak looks similar to red leather from a distance. Upon closer inspection, the hood is made up of small, thin scales, and the rest of the cloak is thin and membranous, with thin tubes running down the length of it that give it the look of large bat wings.",
+				"This cloak has four charges, and regains 1d4 + 1 expended charges daily at dawn.",
+				"While attuned to this cloak, you can use your reaction to expend a charge and cause the cloak to flap up and envelop you. While enveloped, you get a +5 bonus to AC, including against the triggering attack. Additionally, spells and attacks cannot target you or deal damage to you. However, while enveloped, you are blinded and restrained.",
+				"You remain enveloped by the cloak until the start of your next turn."
+			]
+		},
+		{
+			"name": "Hargrave's Helping Hand",
+			"source": "EOS",
+			"rarity": "rare",
+			"weight": 1,
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"This device consists of a finely crafted prosthetic arm sewn onto a leather corset. When worn, the arm springs to life, its gears and motors whirring of its own accord.",
+				"When wearing and attuned to this item, the arm acts as an extra limb, able to hold and manipulate items as if you were holding them in your own hands. The arm freely moves across the corset to where it can be most convenient, and this movement can be controlled at will.",
+				"{@b {@i Curse.}} The helping hand is an item typically sent to new artificers and wizards as a sort of hazing ritual, seeming beneficial at first, but soon overstaying its welcome. Three days after attuning to the item, the wearer must make a DC 15 Charisma saving throw. On a failed save, the arm springs to life and repeatedly slaps its wearer, making unarmed strike attacks using the wearer's Dexterity modifier. Each slap deals 1d4 damage. The attacks continue until the corset is removed. On a successful Charisma saving throw, the device is fully under the wearer's control."
+			]
+		},
+		{
+			"name": "Heward's Magnificent Multitool",
+			"source": "EOS",
+			"rarity": "common",
+			"weight": 1,
+			"wondrous": true,
+			"entries": [
+				"This folded pocket knife has a number of metal compartments with tools that slide or fold out of the body - more than it reasonably looks like it should have. Despite your efforts, you still haven't found the actual knife compartment.",
+				"This item can be used in place of tinker's tools, thieves' tools, and two other types of artisan's tools (chosen by the DM), though you do so at a -3 penalty due to the difficulty of finding the right compartment to use."
+			]
+		},
+		{
+			"name": "Mask of the Plague Doctor",
+			"source": "EOS",
+			"rarity": "uncommon",
+			"weight": 1,
+			"wondrous": true,
+			"reqAttune": "by a cleric, druid, or paladin",
+			"reqAttuneTags": [
+				{
+					"class": "cleric"
+				},
+				{
+					"class": "druid"
+				},
+				{
+					"class": "paladiin"
+				}
+			],
+			"entries": [
+				"A multicolored leather mask is decorated with an elongated beak, goggles in the eye holes and metal clips. The beak is stuffed with various flora of an alchemic nature. When attuned, the enchantments on the flora in the mask make its wearer immune to disease and poison, so long as the disease or poison is not directly administered to the wearer via injection or wound.",
+				"{@b {@i Curse.}} The mask has no negative benefit while worn, but if it is removed voluntarily, the wearer gains vulnerability to poison damage and the poisoned condition, and his or her hit point maximum is reduced by half until his or her next long rest.",
+				"This effect can be suppressed with the use of dispel magic. The dispel DC is equal to the wearer's spell save DC. Once dispelled, the caster takes poison damage equal to half the wearer's current hit points. The curse remains suppressed until the next dawn."
+			]
+		},
+		{
+			"name": "Mirror of True Reflecting",
+			"source": "EOS",
+			"rarity": "rare",
+			"weight": 1,
+			"wondrous": true,
+			"entries": [
+				"This small hand mirror has the image of a blindfolded angel engraved on its reverse side. It has five charges, regaining 1d4+1 expended charges daily at dawn.",
+				"As an action, you can speak its command word and expend one of its charges to cause the mirror's reflective surface to glow along its edge. For the next minute, you can view creatures and objects reflected in the mirror as if you had truesight."
+			]
+		},
+		{
+			"name": "Ring of Iron Sight",
+			"source": "EOS",
+			"type": "RG",
+			"rarity": "rare",
+			"reqAttune": true,
+			"entries": [
+				"This rusted iron band has a forked protrusion on it shaped like the sights of a gun. While attuned to this item, the maximum range of firearms you wield increases by half.",
+				"Additionally, the ring has four charges. While wearing it, you can use your bonus action and expend one charge to sight a target within the maximum range of your firearm. If you do, you do not have disadvantage on the attack roll if the target is beyond the gun's normal range.",
+				"The ring regains 1d4 expended charges after a short or long rest."
+			]
+		},
+		{
+			"name": "Ring of Snapback",
+			"source": "EOS",
+			"type": "RG",
+			"rarity": "very rare",
+			"entries": [
+				"This silver ring is an ornate band adorned with two green gemstones in the shape of an hourglass turned on its side. As an action you can tap the ring, instantly teleporting back to the space you occupied 1 round (6 seconds) ago. If that space is occupied, the creature in it is immediately pushed into the nearest available unoccupied space and must make a DC 15 Constitution saving throw, taking 2d8 force damage on a failed save or half as much damage on a successful one."
+			]
+		},
+		{
+			"name": "Ring of the Ripper",
+			"source": "EOS",
+			"type": "RG",
+			"rarity": "legendary",
+			"reqAttune": "by a Neutral or Evil character",
+			"entries": [
+				"This old, golden ring looks as though it may be worth upwards of 10,000 gp. It has a tiny dark red stain on it that can't be cleaned off.",
+				"{@b {@i Drain.}} A phrase, unknown to you, but familiar to someone else, burns in your mind. You can use your action to say this phrase. When you do, the ring burns brightly as that hand reaches out towards your opponent. Make an unarmed melee attack against a creature within 5 feet of you. On a hit, the target must succeed a DC 15 Constitution saving throw or take 6d4 necrotic damage. You regain hit points equal to the necrotic damage you dealt. You must wait one hour before you can use this feature again.",
+				"{@b {@i Bloodied Blade.}} When you make an attack against a creature who is either surprised or unaware of your presence, it deals an additional 1d8 damage if it hits.",
+				"{@b {@i Curse.}} This ring is possessed by the essence of a serial murderer named The Ripper. Donning this ring lets his influence take hold. Once attuned, you may not take the ring off by any means other than the wish spell.",
+				"{@b {@i Sentience.}} The ring is a sentient chaotic evil ring with an Intelligence of 18, Wisdom of 24, and Charisma of 22. It has hearing and darkvision out to 60 feet. It speaks telepathically to its wearer in a deep, smooth baritone with a touch of madness at its edges. It understands and speaks Common, Dwarvish, Elvish, Giant, Gnomish, Primordial, and Infernal.",
+				"{@b {@i Personality.}} The ring takes pleasure only in violence, and its goal is to shape its wearer into a killer worthy of the moniker \"The Ripper\". It is incredbly talkative and constantly speaks to its wearer, even offering suggestions for courses of action that will encourage more bloodshed. In combat, it often makes comments such as \"Yes, more...\", \"He looks weak, finish the job\", etc."
+			]
+		},
+		{
+			"name": "Binoculars",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "G",
+			"weight": 2,
+			"value": 1000,
+			"entries": [
+			]
+		},
+		{
+			"name": "Compass",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "G",
+			"weight": 0.25,
+			"value": 1000,
+			"entries": [
+				"A tiny, simple with a pointer that always points north. All Wisdom(Survival) checks made to determine location and direction using a compass are made with Advantage."
+			]
+		},
+		{
+			"name": "Goggles",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "G",
+			"weight": 0.5,
+			"value": 100,
+			"entries": [
+				"A pair of goggles can block out the soot and wind while traveling or protect the vision of the wearer from smoke, sparks and other hazards. They also help your character look the part."
+			]
+		},
+		{
+			"name": "Hat",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "G",
+			"weight": 1,
+			"value": 10,
+			"entries": [
+				"A hat comes in a variety of looks such as the popular bowler, top hat, cap and bonnet. Hats are worn on the head as often for sun protection as for style."
+			]
+		},
+		{
+			"name": "Ink Cartridge Pen",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "G",
+			"value": 100,
+			"entries": [
+				"A pen that does not require a bottle of ink to dip into, since the ink is stored in a cartridge inside the pen."
+			]
+		},
+		{
+			"name": "Ink Cartridge",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "G",
+			"value": 50,
+			"entries": [
+			]
+		},
+		{
+			"name": "Lighter",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "G",
+			"value": 800,
+			"entries": [
+				"A lighter holds a small amount of a flammable substance ignited by a flint striking metal, similar to a firearm. Its flame lights a 5-foot area as a candle does but it burns for 3 hours. A single flask of oil can refill two lighters. It is much easier to light fuses with a lighter than with any other source of flame."
+			]
+		},
+		{
+			"name": "Match",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "G",
+			"value": 400,
+			"entries": [
+				"An alchemical substance on the end of this small, wooden stick ignites when struck against a rough surface. Creating a flame with a match is much faster than creating a flame with flint and steel (or a magnifying glass) and tinder, although not as fast as with a lighter. Lighting a torch with a match is a standard action (rather than a full-round action) and lighting any other fire with one is at least a standard action."
+			]
+		},
+		{
+			"name": "Parasol (Silk)",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "G",
+			"value": 500,
+			"entries": [
+			]
+		},
+		{
+			"name": "Photographic Camera",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "G",
+			"value": 5000,
+			"weight": 4,
+			"entries": [
+				"A handheld device with a protruding lens on the front. It is used to capture a static image, or snapshot of what is in the view of the lens onto a plate."
+			]
+		},
+		{
+			"name": "Photo Plate",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "G",
+			"value": 100,
+			"entries": [
+				"A metal plate that holds a special paper used to capture what is exposed by the photographic camera lens. The captured image provides a perfect rendition of what opening the lens revealed, but without color. To develop a photo plate you must be proficient with the alchemist kit."
+			]
+		},
+		{
+			"name": "Tool/Utility Belt",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "G",
+			"value": 200,
+			"entries": [
+				"A sturdy belt made from leather with numerous covered pockets to hold small tools and supplies, making it easy to keep about 10 pounds of items on hand."
+			]
+		},
+		{
+			"name": "Pocket Watch",
+			"source": "EOS",
+			"rarity": "none",
+			"type": "G",
+			"value": 500,
+			"entries": [
+				"A device that tells the time of day."
+			]
+		},
+		{
+			"name": "Void Stone",
+			"source": "EOS",
+			"rarity": "uncommon",
+			"type": "T",
+			"weight": 1,
+			"entries": [
+				"A vital resource that makes industrial society possible. It is used to power various machinery and gadgets.",
+				"When ground into dust, a character can ingest a single pound of void stone to recover a single spell point. Each pound of void dust ingested will temporarily lower the maximum hp of that character by 1, which is reset after a long rest."
+			]
+		},
+		{
+			"name": "Active Filter",
+			"source": "EOS",
+			"rarity": "uncommon",
+			"type": "G",
+			"weight": 0.5,
+			"entries": [
+				"This face mask covers your mouth and nose. You can press a button on the side of the mask to seal it, or the press the button again to release it (no action required). While the mask is sealed, it requires a DC 30 Strength check to remove it from your face.",
+				"While the mask is sealed, you can breathe air and water, and you have advantage on saving throws against harmful gases and vapors (such as cloudkill and stinking cloud effects, inhaled poisons, and the breath weapons of some dragons).",
+				"{@b {@i Power (5 mins).}} The active filter has an internal battery with 5 minutes of battery life, which is consumed while the filter is sealed. If you seal the filter for 1 minute or less, it uses a full minute of battery power. When the power runs out, the filter stops functioning until it is charged to at least 3 minutes charge again."
+			]
+		},
+		{
+			"name": "Planar Spacesuit",
+			"source": "EOS",
+			"rarity": "very rare",
+			"type": "HA",
+			"weight": 65,
+			"ac": 18,
+			"entries": [
+				"This plate armor completely encases your body. You have disadvantage on all Dexterity ability checks, but advantage on saving throws against environmental effects such as extreme heat or cold.",
+				"{@b {@i Plane Shift.}} As an action, you can expend 10 charges of the suit's power to cast the plane shift spell, targeting only yourself.",
+				"{@b {@i Power (10 charges).}} The suit has an internal magical battery with a maximum of 10 charges. You can recharge the battery as normal. Alternatively, a creature with spell slots can use an action to expend a spell slot and recharge the battery by a number of charges equal to the level of the spell slot expended."
+			]
+		},
+		{
+			"name": "Automatic Loader",
+			"source": "EOS",
+			"rarity": "rare",
+			"type": "G",
+			"weight": 2,
+			"entries": [
+				"This device attaches to your firearm to reload it at high speed. Attach to one firearm of your choice. If that firearm has the loading property, this is replaced with reload (2 shots). If the firearm has the reload property, the number of shots is doubled. For example, if you attach the automatic loader to a revolver, it has the reload (12 shots) property.",
+				"{@b {@i Power (10 Days).}} The automatic loader has an internal battery with 10 days of charge, regardless of use.",
+				"{@b {@i Overdrive (4 or less).}} You can use a bonus action to flick a switcher, putting the automatic loader into overdrive. Once on each of your turns while the automatic loader is in overdrive, you can use a bonus action to make two ranged weapon attacks with the firearm the automatic loader is attached to. Make an overdrive check each time you use this bonus action."
+			]
+		},
+		{
+			"name": "Disruption Shield",
+			"source": "EOS",
+			"rarity": "uncommon",
+			"type": "G",
+			"weight": 2,
+			"entries": [
+				"You can activate the disruption shield as a bonus action, causing the air around you to visibly vibrate. You can deactivate the shield by pressing a button (no action required). While the shield is activated, when a ranged attack hits you, you can use your reaction to reduce the damage by 1d10 + your Dexterity modifier, provided that you have a free hand. If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in that hand."
+			]
+		},
+		{
+			"name": "Exoskeleton",
+			"source": "EOS",
+			"rarity": "uncommon",
+			"type": "HA",
+			"weight": 100,
+			"ac": 12,
+			"entries": [
+				"The exoskeleton is heavy armor. Your AC while wearing the exoskeleton is 12. If you are wearing the exoskeleton and it is not activated, your movement speed is reduced to 0. You can pull a lever to activate the exoskeleton, or pull it again to deactivate it (no action required).",
+				"While you are wearing the exoskeleton and it is activated, your movement speed is 20 feet. Your Strength score becomes 21, your carrying capacity is increased to 400 pounds, and you gain a 20 foot climbing speed. While the exoskeleton is activated, you cannot be moved against your will or knocked prone.",
+				"You cannot make weapon attacks while in the exoskeleton, but you can still make unarmed strikes.",
+				"{@b {@i Fuel (1 pound {@item Void Stone|EOS}/Min).}} The exoskeleton burns 1 pound of {@item Void Stone|EOS} per minute of use. If there are no more {@item Void Stone|EOS} available, the exoskeleton ceases to function.",
+				"{@b {@i Overdrive (5 or less).}} You can use abonus action to activate the exoskeleton's overdrive. While in overdrive, the exoskeleton increases your strength to 23 and your carrying capacity to 500 pounds, and its movement speed increases to 25 feet walking and climbing. Make an overdrive check each time you or the exoskeleton takes damage, and each time you attempt to attack while in the exoskeleton."
+			]
+		},
+		{
+			"name": "Fin Suit",
+			"source": "EOS",
+			"rarity": "uncommon",
+			"type": "G",
+			"weight": 20,
+			"entries": [
+				"You can activate the fin suit by pulling a chord, causing fins to extend all over the suit, or deactivate it by pressing a button (no action required). While the fin suit is activate, you have a swimming speed equal to your walking speed.",
+				"If you start your turn underwater with 0 hit points and the fin suit is activated, it causes you to rise 60 feet towards the surface.",
+				"{@b {@i Power (24 hrs).}} The fin suit has an internal battery with 24 hours of battery life, which is consumed while the suit is activated. The suit expends a minimum of 1 minute of charge each time it is activated. If the suit is out of power, it ceases to function."
+			]
+		},
+		{
+			"name": "Flamethrower",
+			"source": "EOS",
+			"rarity": "uncommon",
+			"type": "R",
+			"weight": 10,
+			"firearm": true,
+			"weapon": true,
+			"weaponCategory": "longarm",
+			"entries": [
+				"This firearm uses 1 fl. oz of oil per use. When you attack with this firearm, each creature in a 10-foot cone centred on you must succeed on a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier), taking 2d6 fire damage on a failed save.",
+				"{@b {@i Fuel (1 fl. oz Oil/Use).}} If you attempt to fire the flamethrower without fuel, roll a d20. On a roll of 1, the flamethrower is broken, as if it had failed an overdrive check.",
+				"{@b {@i Overdrive (10 or less).}} You can use a bonus action to active the flamethrower's overdrive. While in overdrive, the range of the flamethrow increases to a 20-foot cone, the damage increases to 4d6 fire damage, and a creature that succeeds its saving throw still takes half damage. You must make an overdrive check each time you use the flamethrower while in overdrive."
+			]
+		},
+		{
+			"name": "Flight Suit",
+			"source": "EOS",
+			"rarity": "uncommon",
+			"type": "G",
+			"weight": 10,
+			"entries": [
+				"This suit includes two wings attached under the arms. When you are falling, you can use your reaction to spread your arms and engage the wings. The wings allow you to glide with a flying speed of 30 feet.",
+				"While you are gliding, you cannot move upwards, and you must end every turn at least 10 feet lower than you started the turn, but you can choose the rate of your fall and in which direction you move."
+			]
+		},
+		{
+			"name": "Gravity Charge",
+			"source": "EOS",
+			"type": "AF",
+			"rarity": "uncommon",
+			"weight": 2,
+			"entries": [
+				"As an action, you press a button on the charge and throw it up to 30 feet away from you. Each creature in a 20-foot radius, 3,000 foot high cylinder centered on the charge must succeed on a DC 12 Strength saving throw or have its flying speed (if any) reduced to 0 feet. An airborne creature affected by this charge falls prone. The area of the charge is difficult terrain for 1 minute or until the charge is deactivated as a bonus action.",
+				"Once you have used the gravity charge, it cannot be used again until you recharge the internal battery (equivalent to 24 hours of charge)."
+			]
+		},
+		{
+			"name": "Heated Gloves",
+			"source": "EOS",
+			"type": "G",
+			"rarity": "uncommon",
+			"weight": 2,
+			"entries": [
+				"While wearing these gloves, you can press a button to activate the gloves, or press it again to deactivate them (no action required). While the gloves are activated, you have resistance to cold damage, and you and everything you wear and carry are unharmed by temperatures as low as \u201350 degrees Fahrenheit.",
+				"{@b {@i Power (7 days).}} The gloves have an internal battery which lasts for 7 days between charges, which is consumed while activated. The gloves always consume a minimum of 1 minute of charge when they are activated. You do not gain the benefits of the gloves if they are out of charge."
+			]
+		},
+		{
+			"name": "Hydraulic Boots",
+			"source": "EOS",
+			"type": "G",
+			"rarity": "uncommon",
+			"weight": 2,
+			"entries": [
+				"You can activate the hydraulic boots by pressing a button on the side, or deactivate them by pressing the same button (no action required). While you wear the boots and they are activated, your walking speed becomes 30 feet, unless your walking speed is higher, and your speed isn't reduced if you are encumbered or wearing heavy armor. In addition, you can jump three times the normal distance, though you can't jump farther than your remaining movement would allow.",
+				"{@b {@i Fuel (1 {@item Void Stone|EOS}/Day).}} The boots consume 1 {@item Void Stone|EOS} per day of continuous use. If the boots do not have fuel available, they cease to function.",
+				"{@b {@i Hydraulics.}} The boots consume 4 pints of water per day of use. They contain an internal tank which can store up to 4 pints of water. If the tank is empty, the boots cannot function."
+			]
+		},
+		{
+			"name": "Khaki Tent",
+			"source": "EOS",
+			"type": "G",
+			"rarity": "common",
+			"weight": 2,
+			"value": 100,
+			"entries": [
+				"This tent is made from a mottled brown cloth, making it difficult to see in natural environments. You have advantage on Wisdom (Survival) checks made to hide your camp if you are camping using this tent."
+			]
+		},
+		{
+			"name": "Magna Clamp",
+			"source": "EOS",
+			"type": "G",
+			"rarity": "uncommon",
+			"weight": 2,
+			"value": 10000,
+			"entries": [
+				"You can use an action to affix this large clam to a wall or solid surface. Until you or another creature familiar with the clamp uses an action to deactivate it, the clamp doesn't move as long as the surface it is attached to remains intact. The clamp can hold up to 10,000 pounds of weight. More weight causes the seal to break and the clamp to fall. A creature can use an action to make a DC 30 Strength check to pull the clamp from the surface, or they can make a DC 20 Intelligence (Investigation) check to determine how to deactivate the clamp if they are not familiar with it."
+			]
+		},
+		{
+			"name": "Mecha",
+			"source": "EOS",
+			"rarity": "legendary",
+			"type": "HA",
+			"weight": 8000,
+			"ac": 20,
+			"ability": {
+				"static": {
+					"str": 30,
+					"dex": 30,
+					"con": 30
+				}
+			},
+			"entries": [
+				"A Huge, {@item Void Stone|EOS}-powered robot which requires a pilot to man it. The mecha is considered a vehicle with space for 1 pilot and no passangers. It weighs 8000 lbs. You cannot carry the mecha on your person, so it does not contribute to your Bulk limit.",
+				"The mecha has a movement speed of 80 feet, an AC of 20, and 50 hit points. It is immune to psychic and poison damage, and resistant to fire damage. While you are driving the mecha, you and the mecha together are considered a Huge creature with a Strength, Dexterity, and Constitution score of 30 each.",
+				"The mecha wields a giant longsword, which deals 3d6 slashing damage on a hit. You add your proficiency bonus to attack rolls made with this sword, and you use your Intelligence modifier for attack and damage rolls made with it.",
+				"The mecha also wields a 60mm Cannon, which deals 4d10 piercing damage on a hit. You add your proficiency bonus to attack rolls made with this cannon, and you use your Intelligence modifier for attack and damage rolls made with it.",
+				"When piloting the mecha, you can move during your turn using the mecha's movement speed, and you can only take actions as the mecha, including attacking with its sword, unless you use a bonus action to climb out of the cockpit. The DM may require you to make a Piloting check to take certain actions with the mecha.",
+				"If the mecha is reduced to 0 hit points while you are piloting it, you take any excess damage and the mecha is broken as if it had failed an overdrive check.",
+				"{@b {@i Fuel (1 oz. {@item Void Stone|EOS}/Minute).}} The mecha consumes 5 oz. of {@item Void Stone|EOS} per minute of use. If it has insufficient {@item Void Stone|EOS}, it ceases to function.",
+				"{@b {@i Overdrive (2 or less).}} As a bonus action, you can pull a lever to activate the mecha's overdrive mode. While in overdrive, the mecha's movement speed is doubled, its AC increases to 22, and its longsword deals an additional 2d6 slashing damage. Make an overdrive check each time you perform any action as the mecha or finish moving as the mecha."
+			]
+		},
+		{
+			"name": "Microscopic Lenses",
+			"source": "EOS",
+			"type": "G",
+			"rarity": "uncommon",
+			"weight": 0.25,
+			"value": 10000,
+			"entries": [
+				"While wearing the goggles, you can see much better than normal out to a range of 1 foot. You have advantage on Intelligence (Investigation) checks that rely on sight while searching an area or studying an object within that range."
+			]
+		},
+		{
+			"name": "Mobility Gear",
+			"source": "EOS",
+			"rarity": "uncommon",
+			"type": "G",
+			"weight": 20,
+			"entries": [
+				"This complex contraption attaches at the waist, and can be activated by pulling levers which can be held in the hand whilst holding a weapon or other object. While wearing the gear, as long as you have a solid verticle surface, such as a cliff, building, or tree, within 60 feet of you, you have a flying speed of 60 feet. If you do not move your entire flying speed on your turn, you fall, unless you end your turn on a solid verticle surface.",
+				"{@b {@i Fuel (1 {@item Void Stone|EOS}/Minute).}} The mobility gear uses {@item Void Stone|EOS} as its fuel. For each minute of flight using the mobility gear, you expend 1 {@item Void Stone|EOS}. If you do not have {@item Void Stone|EOS} for the gear, the gear ceases to function. The mobility gear comes with 4 {@item Void Stone|EOS}.",
+				"{@b {@i Overdrive (1 or less).}} As a bonus action, you can engage the overdrive mode of the gear. While the gear is in overdrive, your flying speed with the gear is doubled, but so is the fuel consumption. In addition, creatures have disadvantage on opportunity attacks against you if you fly out of their reach. Each time you finish moving on your turn, you make your overdrive check."
+			]
+		},
+		{
+			"name": "Power Gauntlets",
+			"source": "EOS",
+			"type": "G",
+			"rarity": "uncommon",
+			"weight": 2,
+			"ability": {
+				"static": {
+					"str": 19
+				}
+			},
+			"entries": [
+				"These gauntlets resemble an array of pistons clambed around your forearms. Your Strength score is 19 while you wear these gauntlets and they have fuel. They have no effect if your Strength score is already 19 or higher.",
+				"{@b {@i Fuel (2 {@item Void Stone|EOS}/Day).}} The power gauntlets contain a small internal steam engine, which burns 2 {@item Void Stone|EOS} for each day of use. The gauntlets are considered to be in constant use. If the gauntlets do not receive their fuel requirement for the day, you gain no benefit from wearing them.",
+				"{@b {@i Overdrive (4 or less).}} As a bonus action, you can activate the overdrive of these gauntlets. While the gauntlets are in overdrive, they instead raise your Strength score to 21, having no effect if your Strength score is already 21 or higher. You must make an Overdrive check each time you make a Strength ability check or saving throw, or make an attack roll using Strength."
+			]
+		},
+		{
+			"name": "Powered-Suit Armor",
+			"source": "EOS",
+			"rarity": "uncommon",
+			"type": "HA",
+			"weight": 100,
+			"ability": {
+				"str": 1
+			},
+			"value": 100000,
+			"entries": [
+				"You can activate the powered-suit armor by pressing a button on its chest (no action required), and deactivate it by pressing the same button again. While the powered-suit armor is activated, you gain a +1 bonus to Strength ability checks and saving throws, and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+				"{@b {@i Power (24 hrs).}} The powered-suit armor contains an internal battery with 24 hours of battery life. Due to the power cost of turning the suit on and off, any use of the powered-suit armor for 1 minute or less uses 1 minute of power. When the power runs out, the powered-suit armor ceases to function until it is charged to at least 1 minute of charge again.",
+				"{@b {@i Overdrive (4 or less).}} As a bonus action, you can pull a chord to force the powered-suit armor into overdrive. While the armor is in overdrive, you gain a +2 bonus to Strength ability checks and saving throws, and when you fail an ability check or saving throw that would shove you or make you fall prone, you can use your reaction to succeed on that ability check or saving throw instead. You must make an overdrive check each time you make a Strength ability check or saving throw, or take damage."
+			]
+		},
+		{
+			"name": "Sparkbox",
+			"source": "EOS",
+			"type": "G",
+			"rarity": "common",
+			"weight": 0.5,
+			"value": 1000,
+			"entries": [
+				"By pulling a small lever on the side of this device, gears a flint and steel together, causing a small spark that can be used to light torches and dry kindling for a fire. The device is clockwork powered, and each use requires spending at least 1 minute winding up the spring."
+			]
+		},
+		{
+			"name": "Spiked Ring",
+			"source": "EOS",
+			"type": "G",
+			"rarity": "common",
+			"value": 10,
+			"entries": [
+				"This plain silver ring contains a hidden spike, which can be ejected or withdrawn by tapping the reverse of the ring. If the spike points inwards, this can be used to painlessly draw blood (taking 1 piercing damage). If the spike points outwards, your unarmed strikes deal piercing instead of bludgeoning damage while the spike is released."
+			]
+		},
+		{
+			"name": "Stabiliser Gloves",
+			"source": "EOS",
+			"type": "G",
+			"rarity": "uncommon",
+			"weight": 1,
+			"bonusWeapon": 1,
+			"entries": [
+				"While wearing these gloves, you gain a +1 bonus to damage rolls with ranged weapon attacks.",
+				"{@b {@i Power (24 hrs).}} The gloves contain an internal battery, which has 24 hours of battery life. The gloves are considered to be in constant use. When the power runs out, the gloves cease to function.",
+				"{@b {@i Overdrive (1 or less).}} You can use a bonus action to push the gloves into overdrive. While in overdrive, you gain a +2 bonus to damage rolls with ranged weapon attacks, instead of the +1 bonus. Roll an overdrive check each time you make a ranged weapon attack roll."
+			]
+		},
+		{
+			"name": "Universal Key",
+			"source": "EOS",
+			"type": "G",
+			"rarity": "rare",
+			"weight": 1,
+			"entries": [
+				"This complex, spider-like contraption fits in the palm of your hand and weighs about 1 pound. You can place the key against an object that can be opened, such as a door, lid, or lock. The key will open one lock or latch on the object. If no locks or latches remain, the object itself opens.",
+				"When you place the key, you can choose to delay its movement up to 1 minute after you place it against the object.",
+				"{@b {@i Power (5 charges).}} Each time it is used, the key expends 1 charge of power. If it has no charges left, roll a d20. On a roll of 1, the key breaks, as if you had failed an overdrive check."
+			]
+		},
 		{
 			"name": "Grenade (Flashbang)",
 			"source": "EOS",
@@ -659,7 +1738,7 @@
 				"Special Properties: {@b {@i Automatic}} ({@dice 6d4})",
 				"A newcomer to Firearms development, the Aftomat Defense Company has designed a revolutionary mechanism for auto-loading firearms.",
 				"Their secret design allows an operator to fire mutiple shots with a single pull of the trigger, releasing a large volume of fire in a short period of time. Seeking adoption by the New Miltia military, the Aftomat Auto Gun underwent military trials, but was found to be a \"waste\" of ammunition after scoring a low hit probability on stationary practice targets. This, combined with it's high cost have turned away most military customers of the weapon.",
-				"The Aftomat Auto Gun has found it's way to the civilian market, but it's high cost has presented a barrier to widespread sales. Only the richest mercenaries and buunty hunters have adopted the weapon."
+				"The Aftomat Auto Gun has found it's way to the civilian market, but it's high cost has presented a barrier to widespread sales. Only the richest mercenaries and bounty hunters have adopted the weapon."
 			],
 			"value": 110000
 		},

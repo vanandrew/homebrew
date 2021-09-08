@@ -110,7 +110,7 @@
 					"(a) a {@filter sidearm|items|source=EOS|type=Firearm;Sidearm Weapon=sand}",
 					"(a) a {@item component pouch|phb} or (b) an {@item arcane focus|phb}",
 					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
-					"Two {@item dagger|phb|daggers}"
+					"two {@item Knife|EOS|Knives}"
 				],
 				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
 				"defaultData": [
@@ -140,7 +140,7 @@
 					{
 						"_": [
 							{
-								"item": "dagger|phb",
+								"item": "Knife|EOS",
 								"quantity": 2
 							}
 						]

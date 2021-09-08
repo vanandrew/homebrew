@@ -77,7 +77,8 @@
 					"{@item scimitar|phb|scimitars}",
 					"{@item sickle|phb|sickles}",
 					"{@item sling|phb|slings}",
-					"{@item spear|phb|spears}"
+					"{@item spear|phb|spears}",
+					"{@filter sidearms|items|source=EOS|type=Firearm;Sidearm Weapon=sand}"
 				],
 				"tools": [
 					"{@item Herbalism kit|PHB}"
@@ -103,37 +104,24 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a wooden {@item shield|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) a {@item scimitar|phb} or (b) any {@filter simple melee weapon|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
-					"{@item Leather armor|phb}, an {@item explorer's pack|phb}, and a {@item druidic focus|phb}"
+					"any {@filter sidearms|items|source=EOS|type=Firearm;Sidearm Weapon=sand}",
+					"{@item Leather Vest|EOS}, an {@item explorer's pack|phb}, a {@item druidic focus|phb}, and a {@item Knife|EOS}"
 				],
 				"goldAlternative": "{@dice 4d4 × 10|4d4 × 10|Starting Gold}",
 				"defaultData": [
 					{
-						"a": [
-							"shield|phb"
-						],
-						"b": [
+						"_": [
 							{
-								"equipmentType": "weaponSimple"
-							}
-						]
-					},
-					{
-						"a": [
-							"scimitar|phb"
-						],
-						"b": [
-							{
-								"equipmentType": "weaponSimpleMelee"
+								"equipmentType": "weaponSidearm"
 							}
 						]
 					},
 					{
 						"_": [
-							"Leather armor|phb",
+							"Leather Vest|EOS",
 							"explorer's pack|phb",
-							"druidic focus|phb"
+							"druidic focus|phb",
+							"Knife|EOS"
 						]
 					}
 				]

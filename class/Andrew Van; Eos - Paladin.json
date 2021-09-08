@@ -70,7 +70,7 @@
 				"default": [
 					"(a) a {@filter longarm weapon|items|source=EOS|type=Longarm weapon} or (b) two {@filter sidearm weapons|items|source=EOS|type=sidearm weapon}",
 					"(a) a {@item priest's pack|phb} or (b) an {@item explorer's pack|phb}",
-					"{@item Chain mail|phb} and a {@item holy symbol|phb}"
+					"{@item Chain Coat|EOS}, a {@item holy symbol|phb}, and a {@item Knife|EOS}"
 				],
 				"goldAlternative": "{@dice 6d4 × 10|6d4 × 10|Starting Gold}",
 				"defaultData": [
@@ -97,8 +97,9 @@
 					},
 					{
 						"_": [
-							"Chain mail|phb",
-							"holy symbol|phb"
+							"Chain Coat|EOS",
+							"holy symbol|phb",
+							"Knife|EOS"
 						]
 					}
 				]

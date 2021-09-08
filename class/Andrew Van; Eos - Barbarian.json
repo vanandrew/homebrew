@@ -62,42 +62,30 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item greataxe|phb} or (b) any {@filter martial melee weapon|items|source=phb|category=basic|type=martial weapon;melee weapon=sand}",
-					"(a) two {@item handaxe|phb|handaxes} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"An {@item explorer's pack|phb}, and four {@item javelin|phb|javelins}"
+					"two {@item Kopis|EOS}",
+					"any {@filter sidearms|items|source=EOS|type=Sidearm Weapon}",
+					"an {@item explorer's pack|phb}"
 				],
 				"goldAlternative": "{@dice 4d4 × 10|4d4 × 10|Starting Gold}",
 				"defaultData": [
 					{
-						"a": [
-							"greataxe|phb"
-						],
-						"b": [
+						"_": [
 							{
-								"equipmentType": "weaponMartialMelee"
-							}
-						]
-					},
-					{
-						"a": [
-							{
-								"item": "handaxe|phb",
+								"item": "Kopis|EOS",
 								"quantity": 2
-							}
-						],
-						"b": [
-							{
-								"equipmentType": "weaponSimple"
 							}
 						]
 					},
 					{
 						"_": [
-							"explorer's pack|phb",
 							{
-								"item": "javelin|phb",
-								"quantity": 4
+								"equipmentType": "weaponSidearm"
 							}
+						]
+					},
+					{
+						"_": [
+							"explorer's pack|phb"
 						]
 					}
 				]
@@ -1314,6 +1302,7 @@
 			"header": 1,
 			"entries": [
 				"Starting when you choose this path at 3rd level, you can use Strength instead of Dexterity for attack and damage rolls made with muskets, shotguns, and any firearm with the heavy property.",
+				"You also gain proficiency with {@filter sidearms|items|source=EOS|type=Sidearm Weapon}, {@filter shotguns|items|source=EOS|type=Firearm|search=shotgun}, and {@filter heavy weapons|items|source=EOS|type=Firearm|property=Heavy}.",
 				"While raging, when you make a ranged weapon attack using Strength with a firearm, you gain the same bonus to the damage roll as if you had made a melee weapon attack. You can only gain this benefit if you are within 10 feet of your target."
 			]
 		},

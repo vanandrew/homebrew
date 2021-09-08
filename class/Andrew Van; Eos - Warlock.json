@@ -152,7 +152,7 @@
 					"(a) a {@filter sidearm|items|source=EOS|type=Firearm;Sidearm Weapon=sand}",
 					"(a) a {@item component pouch|phb} or (b) an {@item arcane focus|phb}",
 					"(a) a {@item scholar's pack|phb} or (b) a {@item dungeoneer's pack|phb}",
-					"{@item Leather armor|phb}, any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}, and two {@item dagger|phb|daggers}"
+					"{@item Leather Vest|EOS}, and two {@item Knife|EOS|Knives}"
 				],
 				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
 				"defaultData": [
@@ -181,12 +181,9 @@
 					},
 					{
 						"_": [
-							"Leather armor|phb",
+							"Leather Vest|EOS",
 							{
-								"equipmentType": "weaponSimple"
-							},
-							{
-								"item": "dagger|phb",
+								"item": "Knife|EOS",
 								"quantity": 2
 							}
 						]

@@ -63,7 +63,7 @@
 				"default": [
 					"(a) a {@item Model 14 Revolver|EOS} or (b) any {@filter sidearms|items|source=EOS|type=Firearm;Sidearm Weapon=sand}",
 					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
-					"10 {@item dart|phb|darts}"
+					"two {@item Knife|EOS|Knives}"
 				],
 				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
 				"defaultData": [
@@ -88,8 +88,8 @@
 					{
 						"_": [
 							{
-								"item": "dart|phb",
-								"quantity": 10
+								"item": "Knife|EOS",
+								"quantity": 2
 							}
 						]
 					}

@@ -76,7 +76,7 @@
 				"default": [
 					"(a) a {@item Model 18 Heavy Revolver|EOS} or (b) 2 {@item Model 14 Revolver|EOS}",
 					"(a) a {@item burglar's pack|phb}, (b) a {@item dungeoneer's pack|phb}, or (c) an {@item explorer's pack|phb}",
-					"{@item Leather armor|phb}, two {@item dagger|phb|daggers}, and {@item thieves' tools|phb}"
+					"{@item Leather Vest|EOS}, two {@item Knife|EOS|Knives}, and {@item thieves' tools|phb}"
 				],
 				"goldAlternative": "{@dice 6d4 × 10|6d4 × 10|Starting Gold}",
 				"defaultData": [
@@ -104,9 +104,9 @@
 					},
 					{
 						"_": [
-							"Leather armor|phb",
+							"Leather Vest|EOS",
 							{
-								"item": "dagger|phb",
+								"item": "Knife|EOS",
 								"quantity": 2
 							},
 							"thieves' tools|phb"

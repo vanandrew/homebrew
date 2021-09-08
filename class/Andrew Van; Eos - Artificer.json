@@ -123,9 +123,8 @@
 				"additionalFromBackground": true,
 				"default": [
 					"any two {@filter sidearms|items|source=EOS|type=Sidearm Weapon} of your choice",
-					"a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts}",
-					"(a) {@item studded leather armor|phb} or (b) {@item scale mail|phb}",
-					"{@item thieves' tools|phb} and a {@item dungeoneer's pack|phb}"
+					"(a) {@item Leather Vest|EOS} or (b) {@item Hide Vest|EOS}",
+					"{@item thieves' tools|phb}, a {@item dungeoneer's pack|phb}, and a {@item Knife|EOS}"
 				],
 				"goldAlternative": "{@dice 6d4 × 10|6d4 × 10|Starting Gold}",
 				"defaultData": [
@@ -139,16 +138,17 @@
 					},
 					{
 						"a": [
-							"studded leather armor|phb"
+							"Leather Vest|EOS"
 						],
 						"b": [
-							"scale mail|phb"
+							"Hide Vest|EOS"
 						]
 					},
 					{
 						"_": [
 							"thieves' tools|phb",
-							"dungeoneer's pack|phb"
+							"dungeoneer's pack|phb",
+							"Knife|EOS"
 						]
 					}
 				]

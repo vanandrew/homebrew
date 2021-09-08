@@ -67,18 +67,19 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) {@item chain mail|phb} or (b) {@item leather armor|phb}",
+					"(a) {@item Chain Coat|EOS} or (b) {@item Leather Vest|EOS}",
 					"(a) a {@filter longarm weapon|items|source=EOS|type=Longarm weapon} or (b) two {@filter sidearm weapons|items|source=EOS|type=sidearm weapon}",
-					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}"
+					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"a {@item Knife|EOS}"
 				],
 				"goldAlternative": "{@dice 6d4 × 10|6d4 × 10|Starting Gold}",
 				"defaultData": [
 					{
 						"a": [
-							"chain mail|phb"
+							"Chain Coat|EOS"
 						],
 						"b": [
-							"leather armor|phb"
+							"Leather Vest|EOS"
 						]
 					},
 					{
@@ -100,6 +101,11 @@
 						],
 						"b": [
 							"explorer's pack|phb"
+						]
+					},
+					{
+						"_": [
+							"Knife|EOS"
 						]
 					}
 				]

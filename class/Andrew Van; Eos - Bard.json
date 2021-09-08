@@ -158,10 +158,10 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item Model 14 Revolver|EOS}, (b) a {@item Model 18 Heavy Revolver|EOS}, or (c) any {@filter sidearm|items|source=EOS|type=Sidearm Weapon}",
+					"(a) a {@item Model 14 Revolver|EOS} or (b) a {@item Model 18 Heavy Revolver|EOS}",
 					"(a) a {@item diplomat's pack|phb} or (b) an {@item entertainer's pack|phb}",
 					"(a) a {@item lute|phb} or (b) any other {@filter musical instrument|items|miscellaneous=mundane|type=instrument}",
-					"{@item Leather armor|phb}, and a {@item dagger|phb}"
+					"{@item Leather Vest|EOS}, and a {@item Knife|EOS}"
 				],
 				"goldAlternative": "{@dice 6d4 × 10|6d4 × 10|Starting Gold}",
 				"defaultData": [
@@ -171,11 +171,6 @@
 						],
 						"b": [
 							"Model 18 Heavy Revolver|EOS"
-						],
-						"c": [
-							{
-								"equipmentType": "weaponSidearm"
-							}
 						]
 					},
 					{
@@ -198,8 +193,8 @@
 					},
 					{
 						"_": [
-							"Leather armor|phb",
-							"dagger|phb"
+							"Leather Vest|EOS",
+							"Knife|EOS"
 						]
 					}
 				]

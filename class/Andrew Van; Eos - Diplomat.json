@@ -244,7 +244,7 @@
 					"(a) a {@item Model 14 Revolver|EOS} or (b) any {@filter sidearms|items|source=EOS|type=Firearm;Sidearm Weapon=sand}",
 					"(a) a {@item diplomat's pack|PHB} or (b) an {@item entertainer's pack|PHB}",
 					"(a) any {@item gaming set|PHB} or (b) any {@item musical instrument|PHB}",
-					"{@item leather armor|PHB} and a {@item dagger|PHB}"
+					"{@item Leather Vest|EOS} and a {@item Knife|EOS}"
 				],
 				"additionalFromBackground": true,
 				"goldAlternative": "{@dice 6d4 × 10|6d4 × 10|Starting Gold}",
@@ -278,8 +278,8 @@
 					},
 					{
 						"_": [
-							"leather armor|PHB",
-							"dagger|PHB"
+							"Leather Vest|EOS",
+							"Knife|EOS"
 						]
 					}
 				]

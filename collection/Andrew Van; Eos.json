@@ -1026,7 +1026,7 @@
 			"name": "Artificer",
 			"optionalfeatureProgression": [
 				{
-					"featureType": "AI",
+					"featureType": ["AI"],
 					"name": "Infusions",
 					"progression": [
 						0,
@@ -9450,7 +9450,7 @@
 			"name": "Warlock",
 			"optionalfeatureProgression": [
 				{
-					"featureType": "EI",
+					"featureType": ["EI"],
 					"name": "Eldritch Invocations",
 					"progression": [
 						0,
